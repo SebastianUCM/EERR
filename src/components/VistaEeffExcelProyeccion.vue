@@ -1,47 +1,79 @@
 <template>
   <div class="min-h-screen bg-slate-50 p-6 md:p-8">
     <header class="mb-6">
-      <h1 class="text-2xl font-bold text-slate-900">Matriz completa Softland</h1>
+      <h1 class="text-2xl font-bold text-slate-900">
+        Matriz completa Softland
+      </h1>
       <p class="text-sm text-slate-600 mt-1">
         Cuentas y montos 100% desde snapshots de Softland por periodo.
       </p>
     </header>
 
-    <div class="rounded-xl border border-slate-200 bg-white p-3 shadow-sm flex flex-wrap gap-3 items-end mb-5">
+    <div
+      class="rounded-xl border border-slate-200 bg-white p-3 shadow-sm flex flex-wrap gap-3 items-end mb-5"
+    >
       <div class="flex flex-col gap-1">
-        <label class="text-[11px] font-semibold uppercase text-slate-500">Año</label>
-        <select v-model.number="filtroAnio" class="border border-slate-300 rounded-md px-2 py-1 text-xs bg-white">
-          <option v-for="a in aniosDisponibles" :key="a" :value="a">{{ a }}</option>
+        <label class="text-[11px] font-semibold uppercase text-slate-500"
+          >Año</label
+        >
+        <select
+          v-model.number="filtroAnio"
+          class="border border-slate-300 rounded-md px-2 py-1 text-xs bg-white"
+        >
+          <option v-for="a in aniosDisponibles" :key="a" :value="a">
+            {{ a }}
+          </option>
         </select>
       </div>
       <span class="text-xs text-slate-500 pb-1">
-        Modo preferido: {{ preferirMovimiento ? "Movimiento del periodo" : "Saldo a fecha" }}
+        Modo preferido:
+        {{ preferirMovimiento ? "Movimiento del periodo" : "Saldo a fecha" }}
       </span>
     </div>
 
-    <div v-if="cargando" class="rounded-lg border border-slate-200 bg-white px-4 py-3 text-sm text-slate-600">
+    <div
+      v-if="cargando"
+      class="rounded-lg border border-slate-200 bg-white px-4 py-3 text-sm text-slate-600"
+    >
       Cargando matriz desde snapshots...
     </div>
-    <div v-else-if="error" class="rounded-lg border border-rose-200 bg-rose-50 px-4 py-3 text-sm text-rose-900">
+    <div
+      v-else-if="error"
+      class="rounded-lg border border-rose-200 bg-rose-50 px-4 py-3 text-sm text-rose-900"
+    >
       {{ error }}
     </div>
     <div v-else class="space-y-4">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
         <div class="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
           <p class="text-xs uppercase text-slate-500 font-semibold">Cuentas</p>
-          <p class="text-2xl font-bold text-slate-900 mt-1">{{ cuentasMapeadas.length }}</p>
+          <p class="text-2xl font-bold text-slate-900 mt-1">
+            {{ cuentasMapeadas.length }}
+          </p>
         </div>
         <div class="rounded-xl border border-indigo-200 bg-white p-4 shadow-sm">
-          <p class="text-xs uppercase text-indigo-700 font-semibold">Total anual</p>
-          <p class="text-2xl font-bold text-slate-900 mt-1">${{ formatCLP(totalAnual) }}</p>
+          <p class="text-xs uppercase text-indigo-700 font-semibold">
+            Total anual
+          </p>
+          <p class="text-2xl font-bold text-slate-900 mt-1">
+            ${{ formatCLP(totalAnual) }}
+          </p>
         </div>
-        <div class="rounded-xl border border-emerald-200 bg-white p-4 shadow-sm">
-          <p class="text-xs uppercase text-emerald-700 font-semibold">Periodos cargados</p>
-          <p class="text-2xl font-bold text-slate-900 mt-1">{{ mesesConDatos }}/12</p>
+        <div
+          class="rounded-xl border border-emerald-200 bg-white p-4 shadow-sm"
+        >
+          <p class="text-xs uppercase text-emerald-700 font-semibold">
+            Periodos cargados
+          </p>
+          <p class="text-2xl font-bold text-slate-900 mt-1">
+            {{ mesesConDatos }}/12
+          </p>
         </div>
       </div>
 
-      <div class="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+      <div
+        class="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden"
+      >
         <div class="px-4 py-3 border-b border-slate-100 bg-slate-50">
           <h2 class="text-sm font-semibold text-slate-800">
             Matriz de cuentas Softland {{ filtroAnio }}
@@ -51,114 +83,199 @@
           <table class="min-w-[1200px] w-full text-xs">
             <thead class="sticky top-0 z-10 bg-slate-100">
               <tr class="border-b border-slate-300 text-slate-700">
-                <th class="px-3 py-2 text-left font-semibold min-w-[10rem]">Código Softland</th>
-                <th class="px-3 py-2 text-left font-semibold min-w-[24rem]">Nombre cuenta</th>
-                <th v-for="m in 12" :key="m" class="px-2 py-2 text-right font-semibold min-w-[6.5rem]">
+                <th class="px-3 py-2 text-left font-semibold min-w-[10rem]">
+                  Código Softland
+                </th>
+                <th class="px-3 py-2 text-left font-semibold min-w-[24rem]">
+                  Nombre cuenta
+                </th>
+                <th
+                  v-for="m in 12"
+                  :key="m"
+                  class="px-2 py-2 text-right font-semibold min-w-[6.5rem]"
+                >
                   {{ mesNombre(m - 1) }}
                 </th>
-                <th class="px-3 py-2 text-right font-semibold min-w-[7rem]">TOTAL</th>
+                <th class="px-3 py-2 text-right font-semibold min-w-[7rem]">
+                  TOTAL
+                </th>
               </tr>
             </thead>
             <tbody>
               <template v-for="grupo in gruposContables" :key="grupo.key">
                 <tr :class="`border-y ${grupo.colorHeader}`">
-                  <td class="px-3 py-1.5 font-semibold text-slate-800" colspan="15">
+                  <td
+                    class="px-3 py-1.5 font-semibold text-slate-800"
+                    colspan="15"
+                  >
                     {{ grupo.label }}
                   </td>
                 </tr>
-                <template v-for="subitem in grupo.subitems" :key="`${grupo.key}-${subitem.key}`">
-                <tr class="bg-slate-50 border-b border-slate-200">
-                  <td class="px-3 py-1.5 font-semibold text-slate-700" colspan="15">
-                    {{ subitem.label }}
-                  </td>
-                </tr>
-                <template v-for="cuenta in subitem.cuentas" :key="`${grupo.key}-${subitem.key}-${cuenta.codigo}`">
-                <tr
-                  class="border-b border-slate-100 cursor-pointer hover:bg-indigo-50/30"
-                  @click="toggleCuenta(cuentaKey(grupo.key, subitem.key, cuenta.codigo))"
+                <template
+                  v-for="subitem in grupo.subitems"
+                  :key="`${grupo.key}-${subitem.key}`"
                 >
-                  <td class="px-3 py-1.5 font-mono text-slate-700">
-                    <span class="inline-flex items-center gap-1">
-                      <span class="text-slate-500">{{ abierta(cuentaKey(grupo.key, subitem.key, cuenta.codigo)) ? "▾" : "▸" }}</span>
-                      {{ cuenta.codigo }}
-                    </span>
-                  </td>
-                  <td class="px-3 py-1.5 text-slate-700">{{ cuenta.nombre }}</td>
-                  <td
-                    v-for="(v, idx) in cuenta.mensual"
-                    :key="`${cuenta.codigo}-${idx}`"
-                    class="px-2 py-1.5 text-right font-mono"
-                    :class="v < 0 ? 'text-rose-700' : 'text-slate-800'"
+                  <tr class="bg-slate-50 border-b border-slate-200">
+                    <td
+                      class="px-3 py-1.5 font-semibold text-slate-700"
+                      colspan="15"
+                    >
+                      {{ subitem.label }}
+                    </td>
+                  </tr>
+                  <template
+                    v-for="cuenta in subitem.cuentas"
+                    :key="`${grupo.key}-${subitem.key}-${cuenta.codigo}`"
                   >
-                    {{ formatCLPContable(v) }}
-                  </td>
-                  <td class="px-3 py-1.5 text-right font-mono font-medium" :class="cuenta.total < 0 ? 'text-rose-700' : 'text-slate-900'">
-                    {{ formatCLPContable(cuenta.total) }}
-                  </td>
-                </tr>
-                <tr v-if="abierta(cuentaKey(grupo.key, subitem.key, cuenta.codigo))" class="bg-slate-50 border-b border-slate-200">
-                  <td class="px-2 py-2" colspan="15">
-                    <div class="overflow-x-auto">
-                      <table class="min-w-[980px] w-full text-[11px]">
-                        <thead>
-                          <tr class="text-slate-600 border-b border-slate-200">
-                            <th class="px-2 py-1 text-left min-w-[8rem]">Centro</th>
-                            <th class="px-2 py-1 text-left min-w-[16rem]">Detalle</th>
-                            <th v-for="m in 12" :key="`cch-${cuenta.codigo}-${m}`" class="px-2 py-1 text-right">
-                              {{ mesNombre(m - 1) }}
-                            </th>
-                            <th class="px-2 py-1 text-right">TOTAL</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr v-for="cc in cuenta.centros" :key="`${cuenta.codigo}-${cc.codigo}`" class="border-b border-slate-100">
-                            <td class="px-2 py-1 font-mono text-slate-700">{{ cc.codigo }}</td>
-                            <td class="px-2 py-1 text-slate-700">{{ cc.nombre }}</td>
-                            <td
-                              v-for="(v, idx) in cc.mensual"
-                              :key="`cc-${cuenta.codigo}-${cc.codigo}-${idx}`"
-                              class="px-2 py-1 text-right font-mono"
-                              :class="v < 0 ? 'text-rose-700' : 'text-slate-800'"
-                            >
-                              {{ formatCLPContable(v) }}
-                            </td>
-                            <td class="px-2 py-1 text-right font-mono font-medium" :class="cc.total < 0 ? 'text-rose-700' : 'text-slate-900'">
-                              {{ formatCLPContable(cc.total) }}
-                            </td>
-                          </tr>
-                          <tr v-if="!cuenta.centros.length">
-                            <td colspan="14" class="px-2 py-2 text-center text-slate-500">
-                              Sin centros de costo informados para esta cuenta.
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </td>
-                </tr>
-                </template>
-                <tr class="bg-slate-50/80 border-b border-slate-300">
-                  <td class="px-3 py-2 font-semibold text-slate-800" colspan="2">
-                    Subtotal {{ subitem.label }}
-                  </td>
-                  <td
-                    v-for="(v, idx) in subitem.subtotalMensual"
-                    :key="`sub-${grupo.key}-${subitem.key}-${idx}`"
-                    class="px-2 py-2 text-right font-semibold font-mono"
-                    :class="v < 0 ? 'text-rose-700' : 'text-slate-900'"
-                  >
-                    {{ formatCLPContable(v) }}
-                  </td>
-                  <td
-                    class="px-3 py-2 text-right font-semibold font-mono"
-                    :class="subitem.total < 0 ? 'text-rose-700' : 'text-slate-900'"
-                  >
-                    {{ formatCLPContable(subitem.total) }}
-                  </td>
-                </tr>
+                    <tr
+                      class="border-b border-slate-100 cursor-pointer hover:bg-indigo-50/30"
+                      @click="
+                        toggleCuenta(
+                          cuentaKey(grupo.key, subitem.key, cuenta.codigo)
+                        )
+                      "
+                    >
+                      <td class="px-3 py-1.5 font-mono text-slate-700">
+                        <span class="inline-flex items-center gap-1">
+                          <span class="text-slate-500">{{
+                            abierta(
+                              cuentaKey(grupo.key, subitem.key, cuenta.codigo)
+                            )
+                              ? "▾"
+                              : "▸"
+                          }}</span>
+                          {{ cuenta.codigo }}
+                        </span>
+                      </td>
+                      <td class="px-3 py-1.5 text-slate-700">
+                        {{ cuenta.nombre }}
+                      </td>
+                      <td
+                        v-for="(v, idx) in cuenta.mensual"
+                        :key="`${cuenta.codigo}-${idx}`"
+                        class="px-2 py-1.5 text-right font-mono"
+                        :class="v < 0 ? 'text-rose-700' : 'text-slate-800'"
+                      >
+                        {{ formatCLPContable(v) }}
+                      </td>
+                      <td
+                        class="px-3 py-1.5 text-right font-mono font-medium"
+                        :class="
+                          cuenta.total < 0 ? 'text-rose-700' : 'text-slate-900'
+                        "
+                      >
+                        {{ formatCLPContable(cuenta.total) }}
+                      </td>
+                    </tr>
+                    <tr
+                      v-if="
+                        abierta(
+                          cuentaKey(grupo.key, subitem.key, cuenta.codigo)
+                        )
+                      "
+                      class="bg-slate-50 border-b border-slate-200"
+                    >
+                      <td class="px-2 py-2" colspan="15">
+                        <div class="overflow-x-auto">
+                          <table class="min-w-[980px] w-full text-[11px]">
+                            <thead>
+                              <tr
+                                class="text-slate-600 border-b border-slate-200"
+                              >
+                                <th class="px-2 py-1 text-left min-w-[8rem]">
+                                  Centro
+                                </th>
+                                <th class="px-2 py-1 text-left min-w-[16rem]">
+                                  Detalle
+                                </th>
+                                <th
+                                  v-for="m in 12"
+                                  :key="`cch-${cuenta.codigo}-${m}`"
+                                  class="px-2 py-1 text-right"
+                                >
+                                  {{ mesNombre(m - 1) }}
+                                </th>
+                                <th class="px-2 py-1 text-right">TOTAL</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr
+                                v-for="cc in cuenta.centros"
+                                :key="`${cuenta.codigo}-${cc.codigo}`"
+                                class="border-b border-slate-100"
+                              >
+                                <td class="px-2 py-1 font-mono text-slate-700">
+                                  {{ cc.codigo }}
+                                </td>
+                                <td class="px-2 py-1 text-slate-700">
+                                  {{ cc.nombre }}
+                                </td>
+                                <td
+                                  v-for="(v, idx) in cc.mensual"
+                                  :key="`cc-${cuenta.codigo}-${cc.codigo}-${idx}`"
+                                  class="px-2 py-1 text-right font-mono"
+                                  :class="
+                                    v < 0 ? 'text-rose-700' : 'text-slate-800'
+                                  "
+                                >
+                                  {{ formatCLPContable(v) }}
+                                </td>
+                                <td
+                                  class="px-2 py-1 text-right font-mono font-medium"
+                                  :class="
+                                    cc.total < 0
+                                      ? 'text-rose-700'
+                                      : 'text-slate-900'
+                                  "
+                                >
+                                  {{ formatCLPContable(cc.total) }}
+                                </td>
+                              </tr>
+                              <tr v-if="!cuenta.centros.length">
+                                <td
+                                  colspan="14"
+                                  class="px-2 py-2 text-center text-slate-500"
+                                >
+                                  Sin centros de costo informados para esta
+                                  cuenta.
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </td>
+                    </tr>
+                  </template>
+                  <tr class="bg-slate-50/80 border-b border-slate-300">
+                    <td
+                      class="px-3 py-2 font-semibold text-slate-800"
+                      colspan="2"
+                    >
+                      Subtotal {{ subitem.label }}
+                    </td>
+                    <td
+                      v-for="(v, idx) in subitem.subtotalMensual"
+                      :key="`sub-${grupo.key}-${subitem.key}-${idx}`"
+                      class="px-2 py-2 text-right font-semibold font-mono"
+                      :class="v < 0 ? 'text-rose-700' : 'text-slate-900'"
+                    >
+                      {{ formatCLPContable(v) }}
+                    </td>
+                    <td
+                      class="px-3 py-2 text-right font-semibold font-mono"
+                      :class="
+                        subitem.total < 0 ? 'text-rose-700' : 'text-slate-900'
+                      "
+                    >
+                      {{ formatCLPContable(subitem.total) }}
+                    </td>
+                  </tr>
                 </template>
                 <tr :class="`border-b ${grupo.colorSubtotal}`">
-                  <td class="px-3 py-2 font-semibold text-slate-800" colspan="2">
+                  <td
+                    class="px-3 py-2 font-semibold text-slate-800"
+                    colspan="2"
+                  >
                     Subtotal {{ grupo.label }}
                   </td>
                   <td
@@ -171,7 +288,9 @@
                   </td>
                   <td
                     class="px-3 py-2 text-right font-semibold font-mono"
-                    :class="grupo.total < 0 ? 'text-rose-700' : 'text-slate-900'"
+                    :class="
+                      grupo.total < 0 ? 'text-rose-700' : 'text-slate-900'
+                    "
                   >
                     {{ formatCLPContable(grupo.total) }}
                   </td>
@@ -193,16 +312,22 @@ const props = defineProps({
   empresa: { type: String, required: true },
 });
 
-const historicoIndexUrls = import.meta.glob("../assets/data/*/historico/index.json", {
-  query: "?url",
-  import: "default",
-  eager: true,
-});
-const historicoJsonUrls = import.meta.glob("../assets/data/*/historico/*.json", {
-  query: "?url",
-  import: "default",
-  eager: true,
-});
+const historicoIndexUrls = import.meta.glob(
+  "../assets/data/*/historico/index.json",
+  {
+    query: "?url",
+    import: "default",
+    eager: true,
+  }
+);
+const historicoJsonUrls = import.meta.glob(
+  "../assets/data/*/historico/*.json",
+  {
+    query: "?url",
+    import: "default",
+    eager: true,
+  }
+);
 
 const snapshots = ref([]);
 const filtroAnio = ref(new Date().getFullYear());
@@ -220,14 +345,26 @@ function formatCLP(v) {
 
 function formatCLPContable(v) {
   const n = Math.round(Number(v || 0));
-  const abs = new Intl.NumberFormat("es-CL", { maximumFractionDigits: 0 }).format(Math.abs(n));
+  const abs = new Intl.NumberFormat("es-CL", {
+    maximumFractionDigits: 0,
+  }).format(Math.abs(n));
   return n < 0 ? `(${abs})` : abs;
 }
 
 function mesNombre(idx) {
   const m = [
-    "ENERO","FEBRERO","MARZO","ABRIL","MAYO","JUNIO",
-    "JULIO","AGOSTO","SEPTIEMBRE","OCTUBRE","NOVIEMBRE","DICIEMBRE",
+    "ENERO",
+    "FEBRERO",
+    "MARZO",
+    "ABRIL",
+    "MAYO",
+    "JUNIO",
+    "JULIO",
+    "AGOSTO",
+    "SEPTIEMBRE",
+    "OCTUBRE",
+    "NOVIEMBRE",
+    "DICIEMBRE",
   ];
   return m[idx] || "";
 }
@@ -259,13 +396,20 @@ const BLOQUES_EXCEL = [
     label: "Otros Resultados",
     colorHeader: "bg-violet-200 border-violet-400",
     colorSubtotal: "bg-violet-100 border-violet-300",
-    test: (c) => !c.startsWith("4-1-") && !c.startsWith("4-2-") && !c.startsWith("5-") && !c.startsWith("3-1-"),
+    test: (c) =>
+      !c.startsWith("4-1-") &&
+      !c.startsWith("4-2-") &&
+      !c.startsWith("5-") &&
+      !c.startsWith("3-1-"),
   },
 ];
 
 function bloquePorCategoria(categoria) {
   const cat = String(categoria || "").trim();
-  return BLOQUES_EXCEL.find((b) => b.key === cat) || BLOQUES_EXCEL[BLOQUES_EXCEL.length - 1];
+  return (
+    BLOQUES_EXCEL.find((b) => b.key === cat) ||
+    BLOQUES_EXCEL[BLOQUES_EXCEL.length - 1]
+  );
 }
 
 function textoTitulo(v) {
@@ -283,7 +427,9 @@ function historicoIndexUrlEmpresa(emp) {
 }
 
 function urlParaSnapshot(emp, archivo) {
-  const base = String(archivo || "").split("/").pop();
+  const base = String(archivo || "")
+    .split("/")
+    .pop();
   if (!base) return null;
   const key = Object.keys(historicoJsonUrls).find((k) => {
     const n = k.replace(/\\/g, "/");
@@ -310,7 +456,11 @@ const snapshotsAnio = computed(() =>
   (snapshots.value || [])
     .map((s) => {
       const m = String(s.id || "").match(/^(\d{4})-(\d{2})/);
-      return { ...s, anio: m ? Number(m[1]) : null, mes: m ? Number(m[2]) : null };
+      return {
+        ...s,
+        anio: m ? Number(m[1]) : null,
+        mes: m ? Number(m[2]) : null,
+      };
     })
     .filter((s) => s.anio === filtroAnio.value && s.mes != null)
 );
@@ -326,7 +476,9 @@ const aniosDisponibles = computed(() => {
   return arr.length ? arr : [new Date().getFullYear()];
 });
 
-const empresaMapping = computed(() => mapeoCuentas?.empresas?.[props.empresa] || null);
+const empresaMapping = computed(
+  () => mapeoCuentas?.empresas?.[props.empresa] || null
+);
 const cuentasMapeadas = computed(() => {
   const mapa = empresaMapping.value?.cuentas || {};
   const rows = [];
@@ -346,7 +498,14 @@ const cuentasMapeadas = computed(() => {
   });
 });
 const mesesConDatos = computed(
-  () => new Set((cuentasMapeadas.value || []).flatMap((c) => c.mensual.map((v, i) => (Math.abs(v) > 0 ? i : null)).filter((x) => x != null))).size
+  () =>
+    new Set(
+      (cuentasMapeadas.value || []).flatMap((c) =>
+        c.mensual
+          .map((v, i) => (Math.abs(v) > 0 ? i : null))
+          .filter((x) => x != null)
+      )
+    ).size
 );
 const totalAnual = computed(() =>
   (cuentasMapeadas.value || []).reduce((a, c) => a + Number(c.total || 0), 0)
@@ -493,7 +652,9 @@ async function cargarMatrizAnual() {
           centros,
         };
       })
-      .sort((x, y) => x.codigo.localeCompare(y.codigo, "es", { numeric: true }));
+      .sort((x, y) =>
+        x.codigo.localeCompare(y.codigo, "es", { numeric: true })
+      );
 
     cuentasMatriz.value = rows;
   } catch (e) {

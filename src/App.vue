@@ -33,7 +33,18 @@
         CMF — proyección
       </button>
 
-      <div class="w-px h-6 bg-gray-200 hidden sm:block mx-1" aria-hidden="true" />
+      <button
+        type="button"
+        :class="tab === 'eeff_eerr' ? tabActive : tabIdle"
+        @click="tab = 'eeff_eerr'"
+      >
+        EERR — consolidado
+      </button>
+
+      <div
+        class="w-px h-6 bg-gray-200 hidden sm:block mx-1"
+        aria-hidden="true"
+      />
 
       <label class="flex items-center gap-2 text-sm text-gray-600">
         <span class="font-medium text-gray-500">Empresa</span>
@@ -50,8 +61,12 @@
 
     <DashboardFidelmira v-if="tab === 'dash'" :empresa="empresa" />
     <VistaEeffAcercamiento v-else-if="tab === 'eeff'" :empresa="empresa" />
-    <VistaEeffExcelProyeccion v-else-if="tab === 'eeff_excel'" :empresa="empresa" />
-    <VistaCmfProyeccion v-else :empresa="empresa" />
+    <VistaEeffExcelProyeccion
+      v-else-if="tab === 'eeff_excel'"
+      :empresa="empresa"
+    />
+    <VistaCmfProyeccion v-else-if="tab === 'cmf'" :empresa="empresa" />
+    <VistaEerr v-else-if="tab === 'eeff_eerr'" :empresa="empresa" />
   </div>
 </template>
 
@@ -61,6 +76,7 @@ import DashboardFidelmira from "./components/DashboardFidelmira.vue";
 import VistaEeffAcercamiento from "./components/VistaEeffAcercamiento.vue";
 import VistaEeffExcelProyeccion from "./components/VistaEeffExcelProyeccion.vue";
 import VistaCmfProyeccion from "./components/VistaCmfProyeccion.vue";
+import VistaEerr from "./components/DashboardEERR.vue";
 import { EMPRESAS } from "./utils/empresas.js";
 
 const tab = ref("dash");
