@@ -1,0 +1,932 @@
+{
+    "empresa": "FIDELMIRA",
+    "nota": "Snapshots: softland.cwmovim + cwpctas. Modos: movimiento_periodo (rango) y saldo_hasta_fecha (acumulado hasta fecha). Ver --modo en extract_contabilidad_snapshot.py",
+    "snapshots": [
+        {
+            "id": "live",
+            "label": "Último extracto (pipeline actual)",
+            "archivo": "../contabilidad.json"
+        },
+        {
+            "id": "2025-Q1",
+            "label": "Ene-Mar 2025 (legacy: movimiento en rango)",
+            "archivo": "2025-Q1.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2025-Q1-mov",
+            "label": "Movimiento del periodo · hasta 2025-03-31 (2025-Q1)",
+            "archivo": "2025-Q1_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2020-01-mov",
+            "label": "Movimiento del periodo · hasta 2020-01-31 (2020-01)",
+            "archivo": "2020-01_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2020-01-cie",
+            "label": "Saldo a fecha de cierre · hasta 2020-01-31 (2020-01)",
+            "archivo": "2020-01_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2020-02-mov",
+            "label": "Movimiento del periodo · hasta 2020-02-29 (2020-02)",
+            "archivo": "2020-02_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2020-02-cie",
+            "label": "Saldo a fecha de cierre · hasta 2020-02-29 (2020-02)",
+            "archivo": "2020-02_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2020-03-mov",
+            "label": "Movimiento del periodo · hasta 2020-03-31 (2020-03)",
+            "archivo": "2020-03_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2020-03-cie",
+            "label": "Saldo a fecha de cierre · hasta 2020-03-31 (2020-03)",
+            "archivo": "2020-03_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2020-04-mov",
+            "label": "Movimiento del periodo · hasta 2020-04-30 (2020-04)",
+            "archivo": "2020-04_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2020-04-cie",
+            "label": "Saldo a fecha de cierre · hasta 2020-04-30 (2020-04)",
+            "archivo": "2020-04_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2020-05-mov",
+            "label": "Movimiento del periodo · hasta 2020-05-31 (2020-05)",
+            "archivo": "2020-05_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2020-05-cie",
+            "label": "Saldo a fecha de cierre · hasta 2020-05-31 (2020-05)",
+            "archivo": "2020-05_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2020-06-mov",
+            "label": "Movimiento del periodo · hasta 2020-06-30 (2020-06)",
+            "archivo": "2020-06_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2020-06-cie",
+            "label": "Saldo a fecha de cierre · hasta 2020-06-30 (2020-06)",
+            "archivo": "2020-06_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2020-07-mov",
+            "label": "Movimiento del periodo · hasta 2020-07-31 (2020-07)",
+            "archivo": "2020-07_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2020-07-cie",
+            "label": "Saldo a fecha de cierre · hasta 2020-07-31 (2020-07)",
+            "archivo": "2020-07_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2020-08-mov",
+            "label": "Movimiento del periodo · hasta 2020-08-31 (2020-08)",
+            "archivo": "2020-08_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2020-08-cie",
+            "label": "Saldo a fecha de cierre · hasta 2020-08-31 (2020-08)",
+            "archivo": "2020-08_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2020-09-mov",
+            "label": "Movimiento del periodo · hasta 2020-09-30 (2020-09)",
+            "archivo": "2020-09_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2020-09-cie",
+            "label": "Saldo a fecha de cierre · hasta 2020-09-30 (2020-09)",
+            "archivo": "2020-09_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2020-10-mov",
+            "label": "Movimiento del periodo · hasta 2020-10-31 (2020-10)",
+            "archivo": "2020-10_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2020-10-cie",
+            "label": "Saldo a fecha de cierre · hasta 2020-10-31 (2020-10)",
+            "archivo": "2020-10_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2020-11-mov",
+            "label": "Movimiento del periodo · hasta 2020-11-30 (2020-11)",
+            "archivo": "2020-11_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2020-11-cie",
+            "label": "Saldo a fecha de cierre · hasta 2020-11-30 (2020-11)",
+            "archivo": "2020-11_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2020-12-mov",
+            "label": "Movimiento del periodo · hasta 2020-12-31 (2020-12)",
+            "archivo": "2020-12_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2020-12-cie",
+            "label": "Saldo a fecha de cierre · hasta 2020-12-31 (2020-12)",
+            "archivo": "2020-12_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2021-01-mov",
+            "label": "Movimiento del periodo · hasta 2021-01-31 (2021-01)",
+            "archivo": "2021-01_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2021-01-cie",
+            "label": "Saldo a fecha de cierre · hasta 2021-01-31 (2021-01)",
+            "archivo": "2021-01_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2021-02-mov",
+            "label": "Movimiento del periodo · hasta 2021-02-28 (2021-02)",
+            "archivo": "2021-02_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2021-02-cie",
+            "label": "Saldo a fecha de cierre · hasta 2021-02-28 (2021-02)",
+            "archivo": "2021-02_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2021-03-mov",
+            "label": "Movimiento del periodo · hasta 2021-03-31 (2021-03)",
+            "archivo": "2021-03_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2021-03-cie",
+            "label": "Saldo a fecha de cierre · hasta 2021-03-31 (2021-03)",
+            "archivo": "2021-03_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2021-04-mov",
+            "label": "Movimiento del periodo · hasta 2021-04-30 (2021-04)",
+            "archivo": "2021-04_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2021-04-cie",
+            "label": "Saldo a fecha de cierre · hasta 2021-04-30 (2021-04)",
+            "archivo": "2021-04_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2021-05-mov",
+            "label": "Movimiento del periodo · hasta 2021-05-31 (2021-05)",
+            "archivo": "2021-05_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2021-05-cie",
+            "label": "Saldo a fecha de cierre · hasta 2021-05-31 (2021-05)",
+            "archivo": "2021-05_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2021-06-mov",
+            "label": "Movimiento del periodo · hasta 2021-06-30 (2021-06)",
+            "archivo": "2021-06_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2021-06-cie",
+            "label": "Saldo a fecha de cierre · hasta 2021-06-30 (2021-06)",
+            "archivo": "2021-06_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2021-07-mov",
+            "label": "Movimiento del periodo · hasta 2021-07-31 (2021-07)",
+            "archivo": "2021-07_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2021-07-cie",
+            "label": "Saldo a fecha de cierre · hasta 2021-07-31 (2021-07)",
+            "archivo": "2021-07_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2021-08-mov",
+            "label": "Movimiento del periodo · hasta 2021-08-31 (2021-08)",
+            "archivo": "2021-08_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2021-08-cie",
+            "label": "Saldo a fecha de cierre · hasta 2021-08-31 (2021-08)",
+            "archivo": "2021-08_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2021-09-mov",
+            "label": "Movimiento del periodo · hasta 2021-09-30 (2021-09)",
+            "archivo": "2021-09_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2021-09-cie",
+            "label": "Saldo a fecha de cierre · hasta 2021-09-30 (2021-09)",
+            "archivo": "2021-09_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2021-10-mov",
+            "label": "Movimiento del periodo · hasta 2021-10-31 (2021-10)",
+            "archivo": "2021-10_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2021-10-cie",
+            "label": "Saldo a fecha de cierre · hasta 2021-10-31 (2021-10)",
+            "archivo": "2021-10_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2021-11-mov",
+            "label": "Movimiento del periodo · hasta 2021-11-30 (2021-11)",
+            "archivo": "2021-11_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2021-11-cie",
+            "label": "Saldo a fecha de cierre · hasta 2021-11-30 (2021-11)",
+            "archivo": "2021-11_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2021-12-mov",
+            "label": "Movimiento del periodo · hasta 2021-12-31 (2021-12)",
+            "archivo": "2021-12_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2021-12-cie",
+            "label": "Saldo a fecha de cierre · hasta 2021-12-31 (2021-12)",
+            "archivo": "2021-12_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2022-01-mov",
+            "label": "Movimiento del periodo · hasta 2022-01-31 (2022-01)",
+            "archivo": "2022-01_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2022-01-cie",
+            "label": "Saldo a fecha de cierre · hasta 2022-01-31 (2022-01)",
+            "archivo": "2022-01_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2022-02-mov",
+            "label": "Movimiento del periodo · hasta 2022-02-28 (2022-02)",
+            "archivo": "2022-02_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2022-02-cie",
+            "label": "Saldo a fecha de cierre · hasta 2022-02-28 (2022-02)",
+            "archivo": "2022-02_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2022-03-mov",
+            "label": "Movimiento del periodo · hasta 2022-03-31 (2022-03)",
+            "archivo": "2022-03_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2022-03-cie",
+            "label": "Saldo a fecha de cierre · hasta 2022-03-31 (2022-03)",
+            "archivo": "2022-03_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2022-04-mov",
+            "label": "Movimiento del periodo · hasta 2022-04-30 (2022-04)",
+            "archivo": "2022-04_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2022-04-cie",
+            "label": "Saldo a fecha de cierre · hasta 2022-04-30 (2022-04)",
+            "archivo": "2022-04_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2022-05-mov",
+            "label": "Movimiento del periodo · hasta 2022-05-31 (2022-05)",
+            "archivo": "2022-05_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2022-05-cie",
+            "label": "Saldo a fecha de cierre · hasta 2022-05-31 (2022-05)",
+            "archivo": "2022-05_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2022-06-mov",
+            "label": "Movimiento del periodo · hasta 2022-06-30 (2022-06)",
+            "archivo": "2022-06_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2022-06-cie",
+            "label": "Saldo a fecha de cierre · hasta 2022-06-30 (2022-06)",
+            "archivo": "2022-06_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2022-07-mov",
+            "label": "Movimiento del periodo · hasta 2022-07-31 (2022-07)",
+            "archivo": "2022-07_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2022-07-cie",
+            "label": "Saldo a fecha de cierre · hasta 2022-07-31 (2022-07)",
+            "archivo": "2022-07_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2022-08-mov",
+            "label": "Movimiento del periodo · hasta 2022-08-31 (2022-08)",
+            "archivo": "2022-08_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2022-08-cie",
+            "label": "Saldo a fecha de cierre · hasta 2022-08-31 (2022-08)",
+            "archivo": "2022-08_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2022-09-mov",
+            "label": "Movimiento del periodo · hasta 2022-09-30 (2022-09)",
+            "archivo": "2022-09_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2022-09-cie",
+            "label": "Saldo a fecha de cierre · hasta 2022-09-30 (2022-09)",
+            "archivo": "2022-09_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2022-10-mov",
+            "label": "Movimiento del periodo · hasta 2022-10-31 (2022-10)",
+            "archivo": "2022-10_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2022-10-cie",
+            "label": "Saldo a fecha de cierre · hasta 2022-10-31 (2022-10)",
+            "archivo": "2022-10_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2022-11-mov",
+            "label": "Movimiento del periodo · hasta 2022-11-30 (2022-11)",
+            "archivo": "2022-11_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2022-11-cie",
+            "label": "Saldo a fecha de cierre · hasta 2022-11-30 (2022-11)",
+            "archivo": "2022-11_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2022-12-mov",
+            "label": "Movimiento del periodo · hasta 2022-12-31 (2022-12)",
+            "archivo": "2022-12_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2022-12-cie",
+            "label": "Saldo a fecha de cierre · hasta 2022-12-31 (2022-12)",
+            "archivo": "2022-12_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2023-01-mov",
+            "label": "Movimiento del periodo · hasta 2023-01-31 (2023-01)",
+            "archivo": "2023-01_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2023-01-cie",
+            "label": "Saldo a fecha de cierre · hasta 2023-01-31 (2023-01)",
+            "archivo": "2023-01_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2023-02-mov",
+            "label": "Movimiento del periodo · hasta 2023-02-28 (2023-02)",
+            "archivo": "2023-02_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2023-02-cie",
+            "label": "Saldo a fecha de cierre · hasta 2023-02-28 (2023-02)",
+            "archivo": "2023-02_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2023-03-mov",
+            "label": "Movimiento del periodo · hasta 2023-03-31 (2023-03)",
+            "archivo": "2023-03_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2023-03-cie",
+            "label": "Saldo a fecha de cierre · hasta 2023-03-31 (2023-03)",
+            "archivo": "2023-03_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2023-04-mov",
+            "label": "Movimiento del periodo · hasta 2023-04-30 (2023-04)",
+            "archivo": "2023-04_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2023-04-cie",
+            "label": "Saldo a fecha de cierre · hasta 2023-04-30 (2023-04)",
+            "archivo": "2023-04_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2023-05-mov",
+            "label": "Movimiento del periodo · hasta 2023-05-31 (2023-05)",
+            "archivo": "2023-05_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2023-05-cie",
+            "label": "Saldo a fecha de cierre · hasta 2023-05-31 (2023-05)",
+            "archivo": "2023-05_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2023-06-mov",
+            "label": "Movimiento del periodo · hasta 2023-06-30 (2023-06)",
+            "archivo": "2023-06_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2023-06-cie",
+            "label": "Saldo a fecha de cierre · hasta 2023-06-30 (2023-06)",
+            "archivo": "2023-06_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2023-07-mov",
+            "label": "Movimiento del periodo · hasta 2023-07-31 (2023-07)",
+            "archivo": "2023-07_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2023-07-cie",
+            "label": "Saldo a fecha de cierre · hasta 2023-07-31 (2023-07)",
+            "archivo": "2023-07_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2023-08-mov",
+            "label": "Movimiento del periodo · hasta 2023-08-31 (2023-08)",
+            "archivo": "2023-08_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2023-08-cie",
+            "label": "Saldo a fecha de cierre · hasta 2023-08-31 (2023-08)",
+            "archivo": "2023-08_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2023-09-mov",
+            "label": "Movimiento del periodo · hasta 2023-09-30 (2023-09)",
+            "archivo": "2023-09_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2023-09-cie",
+            "label": "Saldo a fecha de cierre · hasta 2023-09-30 (2023-09)",
+            "archivo": "2023-09_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2023-10-mov",
+            "label": "Movimiento del periodo · hasta 2023-10-31 (2023-10)",
+            "archivo": "2023-10_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2023-10-cie",
+            "label": "Saldo a fecha de cierre · hasta 2023-10-31 (2023-10)",
+            "archivo": "2023-10_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2023-11-mov",
+            "label": "Movimiento del periodo · hasta 2023-11-30 (2023-11)",
+            "archivo": "2023-11_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2023-11-cie",
+            "label": "Saldo a fecha de cierre · hasta 2023-11-30 (2023-11)",
+            "archivo": "2023-11_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2023-12-mov",
+            "label": "Movimiento del periodo · hasta 2023-12-31 (2023-12)",
+            "archivo": "2023-12_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2023-12-cie",
+            "label": "Saldo a fecha de cierre · hasta 2023-12-31 (2023-12)",
+            "archivo": "2023-12_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2024-01-mov",
+            "label": "Movimiento del periodo · hasta 2024-01-31 (2024-01)",
+            "archivo": "2024-01_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2024-01-cie",
+            "label": "Saldo a fecha de cierre · hasta 2024-01-31 (2024-01)",
+            "archivo": "2024-01_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2024-02-mov",
+            "label": "Movimiento del periodo · hasta 2024-02-29 (2024-02)",
+            "archivo": "2024-02_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2024-02-cie",
+            "label": "Saldo a fecha de cierre · hasta 2024-02-29 (2024-02)",
+            "archivo": "2024-02_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2024-03-mov",
+            "label": "Movimiento del periodo · hasta 2024-03-31 (2024-03)",
+            "archivo": "2024-03_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2024-03-cie",
+            "label": "Saldo a fecha de cierre · hasta 2024-03-31 (2024-03)",
+            "archivo": "2024-03_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2024-04-mov",
+            "label": "Movimiento del periodo · hasta 2024-04-30 (2024-04)",
+            "archivo": "2024-04_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2024-04-cie",
+            "label": "Saldo a fecha de cierre · hasta 2024-04-30 (2024-04)",
+            "archivo": "2024-04_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2024-05-mov",
+            "label": "Movimiento del periodo · hasta 2024-05-31 (2024-05)",
+            "archivo": "2024-05_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2024-05-cie",
+            "label": "Saldo a fecha de cierre · hasta 2024-05-31 (2024-05)",
+            "archivo": "2024-05_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2024-06-mov",
+            "label": "Movimiento del periodo · hasta 2024-06-30 (2024-06)",
+            "archivo": "2024-06_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2024-06-cie",
+            "label": "Saldo a fecha de cierre · hasta 2024-06-30 (2024-06)",
+            "archivo": "2024-06_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2024-07-mov",
+            "label": "Movimiento del periodo · hasta 2024-07-31 (2024-07)",
+            "archivo": "2024-07_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2024-07-cie",
+            "label": "Saldo a fecha de cierre · hasta 2024-07-31 (2024-07)",
+            "archivo": "2024-07_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2024-08-mov",
+            "label": "Movimiento del periodo · hasta 2024-08-31 (2024-08)",
+            "archivo": "2024-08_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2024-08-cie",
+            "label": "Saldo a fecha de cierre · hasta 2024-08-31 (2024-08)",
+            "archivo": "2024-08_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2024-09-mov",
+            "label": "Movimiento del periodo · hasta 2024-09-30 (2024-09)",
+            "archivo": "2024-09_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2024-09-cie",
+            "label": "Saldo a fecha de cierre · hasta 2024-09-30 (2024-09)",
+            "archivo": "2024-09_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2024-10-mov",
+            "label": "Movimiento del periodo · hasta 2024-10-31 (2024-10)",
+            "archivo": "2024-10_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2024-10-cie",
+            "label": "Saldo a fecha de cierre · hasta 2024-10-31 (2024-10)",
+            "archivo": "2024-10_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2024-11-mov",
+            "label": "Movimiento del periodo · hasta 2024-11-30 (2024-11)",
+            "archivo": "2024-11_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2024-11-cie",
+            "label": "Saldo a fecha de cierre · hasta 2024-11-30 (2024-11)",
+            "archivo": "2024-11_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2024-12-mov",
+            "label": "Movimiento del periodo · hasta 2024-12-31 (2024-12)",
+            "archivo": "2024-12_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2024-12-cie",
+            "label": "Saldo a fecha de cierre · hasta 2024-12-31 (2024-12)",
+            "archivo": "2024-12_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2025-01-mov",
+            "label": "Movimiento del periodo · hasta 2025-01-31 (2025-01)",
+            "archivo": "2025-01_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2025-01-cie",
+            "label": "Saldo a fecha de cierre · hasta 2025-01-31 (2025-01)",
+            "archivo": "2025-01_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2025-02-mov",
+            "label": "Movimiento del periodo · hasta 2025-02-28 (2025-02)",
+            "archivo": "2025-02_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2025-02-cie",
+            "label": "Saldo a fecha de cierre · hasta 2025-02-28 (2025-02)",
+            "archivo": "2025-02_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2025-03-mov",
+            "label": "Movimiento del periodo · hasta 2025-03-31 (2025-03)",
+            "archivo": "2025-03_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2025-03-cie",
+            "label": "Saldo a fecha de cierre · hasta 2025-03-31 (2025-03)",
+            "archivo": "2025-03_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2025-04-mov",
+            "label": "Movimiento del periodo · hasta 2025-04-30 (2025-04)",
+            "archivo": "2025-04_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2025-04-cie",
+            "label": "Saldo a fecha de cierre · hasta 2025-04-30 (2025-04)",
+            "archivo": "2025-04_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2025-05-mov",
+            "label": "Movimiento del periodo · hasta 2025-05-31 (2025-05)",
+            "archivo": "2025-05_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2025-05-cie",
+            "label": "Saldo a fecha de cierre · hasta 2025-05-31 (2025-05)",
+            "archivo": "2025-05_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2025-06-mov",
+            "label": "Movimiento del periodo · hasta 2025-06-30 (2025-06)",
+            "archivo": "2025-06_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2025-06-cie",
+            "label": "Saldo a fecha de cierre · hasta 2025-06-30 (2025-06)",
+            "archivo": "2025-06_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2025-07-mov",
+            "label": "Movimiento del periodo · hasta 2025-07-31 (2025-07)",
+            "archivo": "2025-07_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2025-07-cie",
+            "label": "Saldo a fecha de cierre · hasta 2025-07-31 (2025-07)",
+            "archivo": "2025-07_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2025-08-mov",
+            "label": "Movimiento del periodo · hasta 2025-08-31 (2025-08)",
+            "archivo": "2025-08_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2025-08-cie",
+            "label": "Saldo a fecha de cierre · hasta 2025-08-31 (2025-08)",
+            "archivo": "2025-08_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2025-09-mov",
+            "label": "Movimiento del periodo · hasta 2025-09-30 (2025-09)",
+            "archivo": "2025-09_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2025-09-cie",
+            "label": "Saldo a fecha de cierre · hasta 2025-09-30 (2025-09)",
+            "archivo": "2025-09_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2025-10-mov",
+            "label": "Movimiento del periodo · hasta 2025-10-31 (2025-10)",
+            "archivo": "2025-10_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2025-10-cie",
+            "label": "Saldo a fecha de cierre · hasta 2025-10-31 (2025-10)",
+            "archivo": "2025-10_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2025-11-mov",
+            "label": "Movimiento del periodo · hasta 2025-11-30 (2025-11)",
+            "archivo": "2025-11_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2025-11-cie",
+            "label": "Saldo a fecha de cierre · hasta 2025-11-30 (2025-11)",
+            "archivo": "2025-11_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2025-12-mov",
+            "label": "Movimiento del periodo · hasta 2025-12-31 (2025-12)",
+            "archivo": "2025-12_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2025-12-cie",
+            "label": "Saldo a fecha de cierre · hasta 2025-12-31 (2025-12)",
+            "archivo": "2025-12_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2026-01-mov",
+            "label": "Movimiento del periodo · hasta 2026-01-31 (2026-01)",
+            "archivo": "2026-01_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2026-01-cie",
+            "label": "Saldo a fecha de cierre · hasta 2026-01-31 (2026-01)",
+            "archivo": "2026-01_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2026-02-mov",
+            "label": "Movimiento del periodo · hasta 2026-02-28 (2026-02)",
+            "archivo": "2026-02_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2026-02-cie",
+            "label": "Saldo a fecha de cierre · hasta 2026-02-28 (2026-02)",
+            "archivo": "2026-02_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2026-03-mov",
+            "label": "Movimiento del periodo · hasta 2026-03-23 (2026-03)",
+            "archivo": "2026-03_movimiento.json",
+            "modo_softland": "movimiento_periodo"
+        },
+        {
+            "id": "2026-03-cie",
+            "label": "Saldo a fecha de cierre · hasta 2026-03-23 (2026-03)",
+            "archivo": "2026-03_cierre.json",
+            "modo_softland": "saldo_hasta_fecha"
+        },
+        {
+            "id": "2025-03-cpb",
+            "label": "cwmovim (CpbAno/CpbMes) · NCH · individual · hasta 2025-03-31 (2025-03)",
+            "archivo": "2025-03_cwmovim_cpb.json",
+            "modo_softland": "movimiento_periodo",
+            "norma": "nch",
+            "fuente_datos": "cwmovim_cpb",
+            "alcance": "individual"
+        }
+    ]
+}

@@ -1,0 +1,128 @@
+[
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-10-02-002",
+        "Nombre": "BANCO SANTANDER DOLAR 5102634448                            ",
+        "Saldo_Actual": 22477.42
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-10-02-003",
+        "Nombre": "BANCO SANTANDER PESOS 90528424                              ",
+        "Saldo_Actual": 12846.52
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-10-02-004",
+        "Nombre": "BANCO SANTANDER EURO 5102634502                             ",
+        "Saldo_Actual": 3003.1
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-20-01-001",
+        "Nombre": "AMERIS                                                      ",
+        "Saldo_Actual": 657881.4400000001
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-20-01-002",
+        "Nombre": "BCI FONDO INMOBILIARIO LMV II                               ",
+        "Saldo_Actual": 1769719.41
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-20-01-003",
+        "Nombre": "BCI DOLAR CASH                                              ",
+        "Saldo_Actual": -0.0399999999720606
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-20-01-004",
+        "Nombre": "BCI RETORNO DOLAR IG                                        ",
+        "Saldo_Actual": 0.01999999997997292
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-20-01-005",
+        "Nombre": "BTG FFMM MONEY MARKET                                       ",
+        "Saldo_Actual": -1.796252036001534e-11
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-20-01-007",
+        "Nombre": "NEORENTAS NORTH COLONY                                      ",
+        "Saldo_Actual": 2563996.1999999997
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-20-02-001",
+        "Nombre": "EXALMAR SA PERU                                             ",
+        "Saldo_Actual": 1248481.04
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-20-02-002",
+        "Nombre": "CNNEF USA                                                   ",
+        "Saldo_Actual": 4365.8099999999995
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-40-01-010",
+        "Nombre": "CTA X COBRAR INV SANTA FIDELMIRA                            ",
+        "Saldo_Actual": 5196030.749999999
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-40-01-012",
+        "Nombre": "DIVIDENDOS POR COBRAR                                       ",
+        "Saldo_Actual": 13308.0
+    },
+    {
+        "Tipo": "2",
+        "Codigo": "2-1-02-01-004",
+        "Nombre": "CUENTA POR PAGAR SANTA FIDELMIRA                            ",
+        "Saldo_Actual": -4764018.279999999
+    },
+    {
+        "Tipo": "2",
+        "Codigo": "2-1-02-01-006",
+        "Nombre": "CHEQUES GIRADOS POR PAGAR                                   ",
+        "Saldo_Actual": -4399.02
+    },
+    {
+        "Tipo": "3",
+        "Codigo": "3-1-01-01-001",
+        "Nombre": "CAPITAL SOCIAL",
+        "Saldo_Actual": -5268342.38
+    },
+    {
+        "Tipo": "3",
+        "Codigo": "3-2-01-01-002",
+        "Nombre": "RESULTADOS ACUMULADOS",
+        "Saldo_Actual": -1457456.24
+    },
+    {
+        "Tipo": "4",
+        "Codigo": "4-2-01-01-012",
+        "Nombre": "DIVIDENDO BCI ASSET                                         ",
+        "Saldo_Actual": -33546.79
+    },
+    {
+        "Tipo": "5",
+        "Codigo": "5-2-01-03-003",
+        "Nombre": "PATENTES",
+        "Saldo_Actual": 4399.02
+    },
+    {
+        "Tipo": "5",
+        "Codigo": "5-3-01-01-004",
+        "Nombre": "GASTOS FINANCIEROS",
+        "Saldo_Actual": 42.78
+    },
+    {
+        "Tipo": "5",
+        "Codigo": "5-3-01-02-007",
+        "Nombre": "AJUSTE VALOR DE MERCADO INVERSIONES                         ",
+        "Saldo_Actual": 31211.24
+    }
+]

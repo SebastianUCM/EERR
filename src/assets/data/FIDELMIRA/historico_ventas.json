@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "empresa": "FIDELMIRA",
+    "generado_local": "2026-03-23T16:34:07",
+    "fuente_sql": "softland.iw_gsaen",
+    "anios": 3
+  },
+  "serie_mensual": [
+    {
+      "periodo": "2023-03",
+      "total_mes": 25587875.0
+    },
+    {
+      "periodo": "2023-04",
+      "total_mes": 978274567.0
+    },
+    {
+      "periodo": "2023-05",
+      "total_mes": 978359278.0
+    },
+    {
+      "periodo": "2023-06",
+      "total_mes": 974532300.0
+    },
+    {
+      "periodo": "2023-07",
+      "total_mes": 1038981239.0
+    },
+    {
+      "periodo": "2023-08",
+      "total_mes": 1090122464.0
+    },
+    {
+      "periodo": "2023-09",
+      "total_mes": 1074283711.0
+    },
+    {
+      "periodo": "2023-10",
+      "total_mes": 1129688562.0
+    },
+    {
+      "periodo": "2023-11",
+      "total_mes": 1141577279.0
+    },
+    {
+      "periodo": "2023-12",
+      "total_mes": 1111066101.0
+    },
+    {
+      "periodo": "2024-01",
+      "total_mes": 1304841842.0
+    },
+    {
+      "periodo": "2024-02",
+      "total_mes": 1206710554.0
+    },
+    {
+      "periodo": "2024-03",
+      "total_mes": 1155168691.0
+    },
+    {
+      "periodo": "2024-04",
+      "total_mes": 1252552795.0
+    },
+    {
+      "periodo": "2024-05",
+      "total_mes": 1148337962.0
+    },
+    {
+      "periodo": "2024-06",
+      "total_mes": 1196031718.0
+    },
+    {
+      "periodo": "2024-07",
+      "total_mes": 1950445165.0
+    },
+    {
+      "periodo": "2024-08",
+      "total_mes": 1237971482.0
+    },
+    {
+      "periodo": "2024-09",
+      "total_mes": 1224419809.0
+    },
+    {
+      "periodo": "2024-10",
+      "total_mes": 1212442534.0
+    },
+    {
+      "periodo": "2024-11",
+      "total_mes": 1254807957.0
+    },
+    {
+      "periodo": "2024-12",
+      "total_mes": 1242367990.0
+    },
+    {
+      "periodo": "2025-01",
+      "total_mes": 1418059369.0
+    },
+    {
+      "periodo": "2025-02",
+      "total_mes": 1277062123.0
+    },
+    {
+      "periodo": "2025-03",
+      "total_mes": 1293954957.0
+    },
+    {
+      "periodo": "2025-04",
+      "total_mes": 1316008223.0
+    },
+    {
+      "periodo": "2025-05",
+      "total_mes": 1261839231.0
+    },
+    {
+      "periodo": "2025-06",
+      "total_mes": 1297255555.0
+    },
+    {
+      "periodo": "2025-07",
+      "total_mes": 1327651034.0
+    },
+    {
+      "periodo": "2025-08",
+      "total_mes": 1308629096.0
+    },
+    {
+      "periodo": "2025-09",
+      "total_mes": 1297276171.0
+    },
+    {
+      "periodo": "2025-10",
+      "total_mes": 1263154974.0
+    },
+    {
+      "periodo": "2025-11",
+      "total_mes": 1246049409.0
+    },
+    {
+      "periodo": "2025-12",
+      "total_mes": 1247453279.0
+    },
+    {
+      "periodo": "2026-01",
+      "total_mes": 1383440908.0
+    },
+    {
+      "periodo": "2026-02",
+      "total_mes": 1259508691.0
+    },
+    {
+      "periodo": "2026-03",
+      "total_mes": 1229433028.0
+    }
+  ]
+}

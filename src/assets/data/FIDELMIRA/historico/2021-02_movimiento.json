@@ -1,0 +1,454 @@
+{
+    "meta": {
+        "empresa": "FIDELMIRA",
+        "fecha_desde": "2021-02-01",
+        "fecha_hasta": "2021-02-28",
+        "snapshot_id": "2021-02",
+        "snapshot_id_ui": "2021-02-mov",
+        "modo_softland": "movimiento_periodo",
+        "modo_cli": "movimiento",
+        "descripcion_modo": "Suma de movimientos Softland (cwmovim) entre fecha_desde y fecha_hasta.",
+        "tablas_softland": "softland.cwmovim, softland.cwpctas",
+        "solo_lectura_sql": true
+    },
+    "cuentas": [
+        {
+            "Tipo": "1",
+            "Codigo": "1-1-10-01-001",
+            "Nombre": "CAJA",
+            "Saldo_Actual": -2858.0
+        },
+        {
+            "Tipo": "1",
+            "Codigo": "1-1-10-02-001",
+            "Nombre": "BANCO CHILE 2162683210                                      ",
+            "Saldo_Actual": -41987374.0
+        },
+        {
+            "Tipo": "1",
+            "Codigo": "1-1-10-02-002",
+            "Nombre": "BANCO SANTANDER 25996240                                    ",
+            "Saldo_Actual": -156226948.0
+        },
+        {
+            "Tipo": "1",
+            "Codigo": "1-1-10-02-004",
+            "Nombre": "BANCO CREDITO E INVERSIONES",
+            "Saldo_Actual": 107527364.0
+        },
+        {
+            "Tipo": "1",
+            "Codigo": "1-1-10-02-005",
+            "Nombre": "BANCO ITAU                                                  ",
+            "Saldo_Actual": 980154464.0
+        },
+        {
+            "Tipo": "1",
+            "Codigo": "1-1-30-01-001",
+            "Nombre": "CLIENTES",
+            "Saldo_Actual": 94594650.0
+        },
+        {
+            "Tipo": "1",
+            "Codigo": "1-1-40-01-010",
+            "Nombre": "CTA X COBRAR INV.PRIME CAPITAL INTERNACIONAL (EX SEGOVIA SA)",
+            "Saldo_Actual": 89399060.0
+        },
+        {
+            "Tipo": "1",
+            "Codigo": "1-1-50-01-005",
+            "Nombre": "PAGARE POR COBRAR DOLE                                      ",
+            "Saldo_Actual": -3562097.0
+        },
+        {
+            "Tipo": "1",
+            "Codigo": "1-1-50-01-006",
+            "Nombre": "CTA, POR COBRAR DINAMITY                                    ",
+            "Saldo_Actual": 60000000.0
+        },
+        {
+            "Tipo": "1",
+            "Codigo": "1-1-70-01-002",
+            "Nombre": "PAGOS PROVISIONALES MENSUALES",
+            "Saldo_Actual": 13278491.0
+        },
+        {
+            "Tipo": "1",
+            "Codigo": "1-1-70-01-019",
+            "Nombre": "INTER. DIF. HIPOTECARIO CP",
+            "Saldo_Actual": -5159544.0
+        },
+        {
+            "Tipo": "1",
+            "Codigo": "1-1-70-01-020",
+            "Nombre": "REMANENTE CR FISCAL",
+            "Saldo_Actual": 16035857.0
+        },
+        {
+            "Tipo": "1",
+            "Codigo": "1-2-01-09-001",
+            "Nombre": "PROYECTOS                                                   ",
+            "Saldo_Actual": 143849055.0
+        },
+        {
+            "Tipo": "1",
+            "Codigo": "1-2-01-11-001",
+            "Nombre": "PROYECTO GIMNASIO LINARES                                   ",
+            "Saldo_Actual": 120996203.0
+        },
+        {
+            "Tipo": "2",
+            "Codigo": "2-1-01-01-006",
+            "Nombre": "PRESTAMO BANCO ITAU  C/P                                    ",
+            "Saldo_Actual": -1303678520.0
+        },
+        {
+            "Tipo": "2",
+            "Codigo": "2-1-01-02-001",
+            "Nombre": "OBLIG. LEASING 1 SUR 1990 C/PLAZO",
+            "Saldo_Actual": 8136839.0
+        },
+        {
+            "Tipo": "2",
+            "Codigo": "2-1-01-02-002",
+            "Nombre": "OBLIG. LEASING SAN JAVIER C/PLAZO",
+            "Saldo_Actual": 6996340.0
+        },
+        {
+            "Tipo": "2",
+            "Codigo": "2-1-01-02-003",
+            "Nombre": "OBLIG. LEASING COLIN 0240 TALCA",
+            "Saldo_Actual": 13168116.0
+        },
+        {
+            "Tipo": "2",
+            "Codigo": "2-1-01-02-004",
+            "Nombre": "OBLIG. LEASING C. SATELITE C/PLAZO",
+            "Saldo_Actual": 19359476.0
+        },
+        {
+            "Tipo": "2",
+            "Codigo": "2-1-01-02-005",
+            "Nombre": "OBLIG. LEASING 11 ORIENTE C/PLAZO",
+            "Saldo_Actual": 9764371.0
+        },
+        {
+            "Tipo": "2",
+            "Codigo": "2-1-01-02-006",
+            "Nombre": "OBLIG. LEASING MAIPU 556 C/PLAZO",
+            "Saldo_Actual": 8641773.0
+        },
+        {
+            "Tipo": "2",
+            "Codigo": "2-1-01-02-007",
+            "Nombre": "OBLIG. LEASING BRASIL 648 C/PLAZO",
+            "Saldo_Actual": 6625359.0
+        },
+        {
+            "Tipo": "2",
+            "Codigo": "2-1-01-02-008",
+            "Nombre": "OBLIG. LEASING VIAL 224 C/PLAZO",
+            "Saldo_Actual": 7921624.0
+        },
+        {
+            "Tipo": "2",
+            "Codigo": "2-1-01-02-009",
+            "Nombre": "OBLIG. LEASING TALCA COLIN C/PLAZO",
+            "Saldo_Actual": 75071034.0
+        },
+        {
+            "Tipo": "2",
+            "Codigo": "2-1-01-02-010",
+            "Nombre": "OBLIG. HIPOTECARIO C/PLAZO",
+            "Saldo_Actual": 15849365.0
+        },
+        {
+            "Tipo": "2",
+            "Codigo": "2-1-02-01-001",
+            "Nombre": "PROVEEDORES                                                 ",
+            "Saldo_Actual": 13060696.0
+        },
+        {
+            "Tipo": "2",
+            "Codigo": "2-1-02-01-002",
+            "Nombre": "HONORARIOS POR PAGAR                                        ",
+            "Saldo_Actual": -892983.0
+        },
+        {
+            "Tipo": "2",
+            "Codigo": "2-1-03-01-001",
+            "Nombre": "GARANTIAS RECIBIDAS ARRENDATARIOS (CLP)                     ",
+            "Saldo_Actual": -1549500.0
+        },
+        {
+            "Tipo": "2",
+            "Codigo": "2-1-03-02-001",
+            "Nombre": "ANTICIPO DE CLIENTES                                        ",
+            "Saldo_Actual": -1142590.0
+        },
+        {
+            "Tipo": "2",
+            "Codigo": "2-1-04-01-002",
+            "Nombre": "IMPUESTO UNICO",
+            "Saldo_Actual": 12472.0
+        },
+        {
+            "Tipo": "2",
+            "Codigo": "2-1-04-01-003",
+            "Nombre": "IMPUESTO 2° CATEGORIA",
+            "Saldo_Actual": -343697.0
+        },
+        {
+            "Tipo": "2",
+            "Codigo": "2-1-04-01-004",
+            "Nombre": "IMPUESTOS POR PAGAR",
+            "Saldo_Actual": -65774.0
+        },
+        {
+            "Tipo": "2",
+            "Codigo": "2-1-04-01-005",
+            "Nombre": "IMPOSICIONES POR PAGAR                                      ",
+            "Saldo_Actual": -15161.0
+        },
+        {
+            "Tipo": "2",
+            "Codigo": "2-1-04-01-007",
+            "Nombre": "SEGURO CHILENA CONSOLIDADA                                  ",
+            "Saldo_Actual": -73.0
+        },
+        {
+            "Tipo": "4",
+            "Codigo": "4-1-01-01-001",
+            "Nombre": "ARRIENDO FIJO",
+            "Saldo_Actual": -560926312.0
+        },
+        {
+            "Tipo": "4",
+            "Codigo": "4-1-01-01-002",
+            "Nombre": "ARRIENDO VARIABLE",
+            "Saldo_Actual": -19434026.0
+        },
+        {
+            "Tipo": "4",
+            "Codigo": "4-1-01-01-005",
+            "Nombre": "CONSUMOS DE AGUAS",
+            "Saldo_Actual": -4099331.0
+        },
+        {
+            "Tipo": "4",
+            "Codigo": "4-1-01-01-006",
+            "Nombre": "CONSUMOS DE LUZ",
+            "Saldo_Actual": -45187851.0
+        },
+        {
+            "Tipo": "4",
+            "Codigo": "4-1-01-01-008",
+            "Nombre": "GASTOS COMUNES",
+            "Saldo_Actual": -33804093.0
+        },
+        {
+            "Tipo": "4",
+            "Codigo": "4-1-01-01-013",
+            "Nombre": "VARIOS",
+            "Saldo_Actual": -200000.0
+        },
+        {
+            "Tipo": "4",
+            "Codigo": "4-2-01-01-003",
+            "Nombre": "DIVIDENDOS RIACHUELO                                        ",
+            "Saldo_Actual": -10000000.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-1-01-01-001",
+            "Nombre": "SERVICIOS DE GUARDIAS",
+            "Saldo_Actual": 18504012.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-1-01-01-003",
+            "Nombre": "CAMARAS Y DVR",
+            "Saldo_Actual": 87380.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-1-01-01-005",
+            "Nombre": "ARTICULOS DE SEGURIDAD",
+            "Saldo_Actual": 78642.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-1-01-03-001",
+            "Nombre": "SERVICIOS DE JARDINES Y PAISAJISMO",
+            "Saldo_Actual": 136833.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-1-01-03-003",
+            "Nombre": "CONTROL DE PLAGAS",
+            "Saldo_Actual": 478466.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-1-01-04-002",
+            "Nombre": "MANTENCION TRANSPORTE VERTICAL CORRECTIVA                   ",
+            "Saldo_Actual": 509580.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-1-01-04-003",
+            "Nombre": "MANTENCION BOMBAS AP                                        ",
+            "Saldo_Actual": 58429.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-1-01-04-004",
+            "Nombre": "MANTENCION BOMBAS AP CORRECTIVA                             ",
+            "Saldo_Actual": 43822.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-1-01-04-007",
+            "Nombre": "MANTENCION CCTV                                             ",
+            "Saldo_Actual": 377902.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-1-01-04-011",
+            "Nombre": "MANTENCION GENERAL                                          ",
+            "Saldo_Actual": 4593777.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-1-01-06-001",
+            "Nombre": "CONSUMO AGUA COMUN",
+            "Saldo_Actual": 33468.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-1-01-06-002",
+            "Nombre": "CONSUMO ENERGIA COMUN",
+            "Saldo_Actual": 37218751.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-1-01-07-001",
+            "Nombre": "TELEFONO",
+            "Saldo_Actual": 189432.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-1-01-07-002",
+            "Nombre": "INTERNET",
+            "Saldo_Actual": 537943.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-1-01-09-001",
+            "Nombre": "BACK OFFICE",
+            "Saldo_Actual": 8187869.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-1-01-10-002",
+            "Nombre": "PROPERTY",
+            "Saldo_Actual": 3381293.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-2-01-01-001",
+            "Nombre": "REMUNERACIONES BRUTAS",
+            "Saldo_Actual": 37410180.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-2-01-01-002",
+            "Nombre": "APORTES PATRONALES",
+            "Saldo_Actual": 571265.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-2-01-01-004",
+            "Nombre": "GRATIFICACIONES                                             ",
+            "Saldo_Actual": 1231633.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-2-01-01-006",
+            "Nombre": "OTROS NO IMPONIBLES                                         ",
+            "Saldo_Actual": 6600.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-2-01-02-002",
+            "Nombre": "HONORARIOS SERVICIOS LEGALES                                ",
+            "Saldo_Actual": 1454730.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-2-01-02-003",
+            "Nombre": "ASESORIAS Y CONSULTORIAS                                    ",
+            "Saldo_Actual": 27891192.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-2-01-02-004",
+            "Nombre": "SERVICIOS DE ASEO",
+            "Saldo_Actual": 869832.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-2-01-03-002",
+            "Nombre": "GASTOS NOTARIALES",
+            "Saldo_Actual": 3000.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-2-01-03-004",
+            "Nombre": "GASTO IVA PROPORCIONAL",
+            "Saldo_Actual": 14778339.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-2-01-03-006",
+            "Nombre": "GASTOS GENERALES",
+            "Saldo_Actual": 1173216.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-2-01-06-001",
+            "Nombre": "ARRIENDOS                                                   ",
+            "Saldo_Actual": 2821145.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-3-01-01-002",
+            "Nombre": "GASTOS BANCARIOS",
+            "Saldo_Actual": 35586912.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-3-01-01-004",
+            "Nombre": "GASTOS FINANCIEROS",
+            "Saldo_Actual": 169321039.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-3-01-01-006",
+            "Nombre": "INTERESES HIPOTECARIOS",
+            "Saldo_Actual": 5159544.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-3-01-02-006",
+            "Nombre": "GANANCIA (PERDIDA) SWAP",
+            "Saldo_Actual": 24332515.0
+        },
+        {
+            "Tipo": "5",
+            "Codigo": "5-3-01-03-004",
+            "Nombre": "CORRECCION REMANENTE CREDITO FISCAL                         ",
+            "Saldo_Actual": -19192618.0
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "empresa": "RRHH2021",
+    "generado": "2026-03-23T16:34:40",
+    "modelo": "ninguno",
+    "error": "serie insuficiente (<6 meses)"
+  },
+  "ventas": {
+    "historico": [],
+    "pronostico": []
+  },
+  "flujo_caja": {
+    "nota": "serie insuficiente (<6 meses)",
+    "historico": [],
+    "pronostico": []
+  }
+}

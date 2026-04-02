@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "empresa": "CTERGSPA",
+    "generado_local": "2026-03-23T16:35:54",
+    "fuente_sql": "softland.iw_gsaen",
+    "anios": 3
+  },
+  "serie_mensual": [
+    {
+      "periodo": "2025-07",
+      "total_mes": 21653748.0
+    },
+    {
+      "periodo": "2025-08",
+      "total_mes": 32088088.0
+    },
+    {
+      "periodo": "2025-09",
+      "total_mes": 57930718.0
+    },
+    {
+      "periodo": "2025-10",
+      "total_mes": 88762149.0
+    },
+    {
+      "periodo": "2025-11",
+      "total_mes": 30543231.0
+    },
+    {
+      "periodo": "2025-12",
+      "total_mes": 63975204.0
+    },
+    {
+      "periodo": "2026-01",
+      "total_mes": 88655000.0
+    },
+    {
+      "periodo": "2026-02",
+      "total_mes": 75513533.0
+    },
+    {
+      "periodo": "2026-03",
+      "total_mes": 89964774.0
+    }
+  ]
+}

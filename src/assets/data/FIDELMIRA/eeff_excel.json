@@ -1,0 +1,995 @@
+{
+  "origen": "public\\docs\\EEFF GESTIÓN S.xlsx",
+  "anios": {
+    "2025": {
+      "meses": [
+        "ENERO",
+        "FEBRERO",
+        "MARZO",
+        "ABRIL",
+        "MAYO",
+        "JUNIO",
+        "JULIO",
+        "AGOSTO",
+        "SEPTIEMBRE",
+        "OCTUBRE",
+        "NOVIEMBRE",
+        "DICIEMBRE"
+      ],
+      "cuentas": [
+        {
+          "codigo": "4-1-01-003",
+          "nombre": "4-1-01-01-001  ARRIENDO FIJO",
+          "mensual": {
+            "ENERO": 814351323.0,
+            "FEBRERO": 794440849.0,
+            "MARZO": 809857525.0,
+            "ABRIL": 802160561.0,
+            "MAYO": 795044622.0,
+            "JUNIO": 804787797.0,
+            "JULIO": 815736982.0,
+            "AGOSTO": 807021125.0,
+            "SEPTIEMBRE": 808105421.0,
+            "OCTUBRE": 804912277.0,
+            "NOVIEMBRE": 767319666.0,
+            "DICIEMBRE": 769483286.0
+          }
+        },
+        {
+          "codigo": "4-1-01-004",
+          "nombre": "4-1-01-01-002  ARRIENDO VARIABLE",
+          "mensual": {
+            "ENERO": 205412139.0,
+            "FEBRERO": 110862912.0,
+            "MARZO": 121223805.0,
+            "ABRIL": 134653206.0,
+            "MAYO": 112155078.0,
+            "JUNIO": 260814354.0,
+            "JULIO": 113830570.0,
+            "AGOSTO": 132833462.0,
+            "SEPTIEMBRE": 111454121.0,
+            "OCTUBRE": 109709461.0,
+            "NOVIEMBRE": 118080647.0,
+            "DICIEMBRE": 187172032.0
+          }
+        },
+        {
+          "codigo": "4-1-01-009",
+          "nombre": "4-1-01-01-005  CONSUMOS DE AGUAS",
+          "mensual": {
+            "ENERO": 7098283.0,
+            "FEBRERO": 6528732.0,
+            "MARZO": 7422183.0,
+            "ABRIL": 7268186.0,
+            "MAYO": 7207264.0,
+            "JUNIO": 6699925.0,
+            "JULIO": 7877613.0,
+            "AGOSTO": 6196816.0,
+            "SEPTIEMBRE": 10088962.0,
+            "OCTUBRE": 7118804.0,
+            "NOVIEMBRE": 9076994.0,
+            "DICIEMBRE": 7543131.0
+          }
+        },
+        {
+          "codigo": "4-1-01-010",
+          "nombre": "4-1-01-01-006  CONSUMOS DE LUZ",
+          "mensual": {
+            "ENERO": 131788340.0,
+            "FEBRERO": 126269485.0,
+            "MARZO": 115927985.0,
+            "ABRIL": 122681128.0,
+            "MAYO": 112319932.0,
+            "JUNIO": 108374608.0,
+            "JULIO": 122556346.0,
+            "AGOSTO": 126761099.0,
+            "SEPTIEMBRE": 107909698.0,
+            "OCTUBRE": 100361162.0,
+            "NOVIEMBRE": 113077686.0,
+            "DICIEMBRE": 115287553.0
+          }
+        },
+        {
+          "codigo": "4-1-01-090",
+          "nombre": "4-1-01-01-007  CONSUMOS DE GAS",
+          "mensual": {
+            "ENERO": 2245058.0,
+            "FEBRERO": 2155313.0,
+            "MARZO": 2499503.0,
+            "ABRIL": 1970188.0,
+            "MAYO": 2402897.0,
+            "JUNIO": 1814268.0,
+            "JULIO": 2295056.0,
+            "AGOSTO": 2000967.0,
+            "SEPTIEMBRE": 2377958.0,
+            "OCTUBRE": 1889504.0,
+            "NOVIEMBRE": 2248972.0,
+            "DICIEMBRE": 1844571.0
+          }
+        },
+        {
+          "codigo": "4-1-01-007",
+          "nombre": "4-1-01-01-008  GASTOS COMUNES",
+          "mensual": {
+            "ENERO": 80794439.0,
+            "FEBRERO": 81791897.0,
+            "MARZO": 80456044.0,
+            "ABRIL": 87044706.0,
+            "MAYO": 78213922.0,
+            "JUNIO": 165650458.0,
+            "JULIO": 81957862.0,
+            "AGOSTO": 86783021.0,
+            "SEPTIEMBRE": 80565637.0,
+            "OCTUBRE": 84888615.0,
+            "NOVIEMBRE": 86121485.0,
+            "DICIEMBRE": 90583155.0
+          }
+        },
+        {
+          "codigo": "4-1-01-006",
+          "nombre": "4-1-01-01-013  VARIOS",
+          "mensual": {
+            "ENERO": -140662996.0,
+            "FEBRERO": 0.0,
+            "MARZO": 0.0,
+            "ABRIL": 232728103.0,
+            "MAYO": 34500.0,
+            "JUNIO": -232397622.0,
+            "JULIO": 36221.0,
+            "AGOSTO": 43929.0,
+            "SEPTIEMBRE": 44641.0,
+            "OCTUBRE": 93193.0,
+            "NOVIEMBRE": 68615.0,
+            "DICIEMBRE": 2897198.0
+          }
+        },
+        {
+          "codigo": "4-2-01-002",
+          "nombre": "4-2-01-01-003  DIVIDENDOS RIACHUELO",
+          "mensual": {
+            "ENERO": 0.0,
+            "FEBRERO": 12500000.0,
+            "MARZO": 0.0,
+            "ABRIL": 0.0,
+            "MAYO": 10000000.0,
+            "JUNIO": 20000000.0,
+            "JULIO": 0.0,
+            "AGOSTO": 0.0,
+            "SEPTIEMBRE": 7500000.0,
+            "OCTUBRE": 10000000.0,
+            "NOVIEMBRE": 10000000.0,
+            "DICIEMBRE": 10000000.0
+          }
+        },
+        {
+          "codigo": "4-2-01-003",
+          "nombre": "4-2-01-01-004  INTERESES DAP",
+          "mensual": {
+            "ENERO": 0.0,
+            "FEBRERO": 0.0,
+            "MARZO": 0.0,
+            "ABRIL": 0.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": 0.0,
+            "AGOSTO": 1004220.0,
+            "SEPTIEMBRE": 4335330.0,
+            "OCTUBRE": 3946204.0,
+            "NOVIEMBRE": 2528598.0,
+            "DICIEMBRE": 0.0
+          }
+        },
+        {
+          "codigo": "4-2-01-030",
+          "nombre": "4-2-01-01-005  INTERESES DE PAGARE",
+          "mensual": {
+            "ENERO": 182491.0,
+            "FEBRERO": 182491.0,
+            "MARZO": 0.0,
+            "ABRIL": 22148752.0,
+            "MAYO": 866813.0,
+            "JUNIO": 12020918.0,
+            "JULIO": 6384705.0,
+            "AGOSTO": 6442980.0,
+            "SEPTIEMBRE": 6395443.0,
+            "OCTUBRE": 6532738.0,
+            "NOVIEMBRE": 6413276.0,
+            "DICIEMBRE": 6303059.0
+          }
+        },
+        {
+          "codigo": "4-2-01-094",
+          "nombre": "4-2-01-01-006  INTERESES DAP US$ BCI",
+          "mensual": {
+            "ENERO": 1358450.0,
+            "FEBRERO": 1444192.0,
+            "MARZO": 598677.0,
+            "ABRIL": 432918.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": 0.0,
+            "AGOSTO": 667851.0,
+            "SEPTIEMBRE": 796647.0,
+            "OCTUBRE": 658437.0,
+            "NOVIEMBRE": 676005.0,
+            "DICIEMBRE": 681636.0
+          }
+        },
+        {
+          "codigo": "4-2-01-091",
+          "nombre": "4-2-01-01-010  DIVIDENDOS ACCIONARIO BTG",
+          "mensual": {
+            "ENERO": 0.0,
+            "FEBRERO": 15962400.0,
+            "MARZO": 0.0,
+            "ABRIL": 15962400.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": 0.0,
+            "AGOSTO": 8511600.0,
+            "SEPTIEMBRE": 0.0,
+            "OCTUBRE": 0.0,
+            "NOVIEMBRE": 8000000.0,
+            "DICIEMBRE": 0.0
+          }
+        },
+        {
+          "codigo": "3-1-10-102",
+          "nombre": "5-2-01-01-008  SEGURO COMPLEMENTARIO SALUD",
+          "mensual": {
+            "ENERO": -1129979.0,
+            "FEBRERO": -1283734.0,
+            "MARZO": 291707.0,
+            "ABRIL": -1004788.0,
+            "MAYO": -1009126.0,
+            "JUNIO": -1015059.0,
+            "JULIO": -1254630.0,
+            "AGOSTO": -1285666.0,
+            "SEPTIEMBRE": -1187290.0,
+            "OCTUBRE": -1172933.0,
+            "NOVIEMBRE": -1172589.0,
+            "DICIEMBRE": -1177836.0
+          }
+        },
+        {
+          "codigo": "3-1-10-106",
+          "nombre": "5-1-01-01-005  ARTICULOS DE SEGURIDAD",
+          "mensual": {
+            "ENERO": -86051.0,
+            "FEBRERO": -148019.0,
+            "MARZO": -86569.0,
+            "ABRIL": -139279.0,
+            "MAYO": -87528.0,
+            "JUNIO": -87787.0,
+            "JULIO": -294955.0,
+            "AGOSTO": -175980.0,
+            "SEPTIEMBRE": -210000.0,
+            "OCTUBRE": -1083445.0,
+            "NOVIEMBRE": -257499.0,
+            "DICIEMBRE": -75927.0
+          }
+        },
+        {
+          "codigo": "3-1-10-101",
+          "nombre": "5-1-01-02-002  INSUMOS BANOS",
+          "mensual": {
+            "ENERO": -990846.0,
+            "FEBRERO": -54030.0,
+            "MARZO": -1011268.0,
+            "ABRIL": -1049030.0,
+            "MAYO": -1028154.0,
+            "JUNIO": -1416615.0,
+            "JULIO": -411020.0,
+            "AGOSTO": -1099423.0,
+            "SEPTIEMBRE": -1127931.0,
+            "OCTUBRE": -1126803.0,
+            "NOVIEMBRE": -1196944.0,
+            "DICIEMBRE": -64945.0
+          }
+        },
+        {
+          "codigo": "3-1-10-107",
+          "nombre": "5-1-01-07-002  INTERNET",
+          "mensual": {
+            "ENERO": -2083353.0,
+            "FEBRERO": -1813531.0,
+            "MARZO": -2172274.0,
+            "ABRIL": -1917898.0,
+            "MAYO": -1538329.0,
+            "JUNIO": -1802876.0,
+            "JULIO": -2002166.0,
+            "AGOSTO": -1977819.0,
+            "SEPTIEMBRE": -2018058.0,
+            "OCTUBRE": -2026840.0,
+            "NOVIEMBRE": -1934970.0,
+            "DICIEMBRE": -2001698.0
+          }
+        },
+        {
+          "codigo": "3-1-10-009",
+          "nombre": "5-1-01-03-003  CONTROL DE PLAGAS",
+          "mensual": {
+            "ENERO": -1652992.0,
+            "FEBRERO": -208427.0,
+            "MARZO": -3009205.0,
+            "ABRIL": -4280565.0,
+            "MAYO": -1507857.0,
+            "JUNIO": -1510562.0,
+            "JULIO": -1510909.0,
+            "AGOSTO": -1511897.0,
+            "SEPTIEMBRE": -1519363.0,
+            "OCTUBRE": -1521851.0,
+            "NOVIEMBRE": -1881364.0,
+            "DICIEMBRE": -1716598.0
+          }
+        },
+        {
+          "codigo": "3-1-40-099",
+          "nombre": "5-2-01-02-001  HONORARIOS CONTABLES",
+          "mensual": {
+            "ENERO": 0.0,
+            "FEBRERO": -3900761.0,
+            "MARZO": -2927814.0,
+            "ABRIL": -1169591.0,
+            "MAYO": -226372.0,
+            "JUNIO": 259390.0,
+            "JULIO": 0.0,
+            "AGOSTO": -58479.0,
+            "SEPTIEMBRE": 0.0,
+            "OCTUBRE": -350878.0,
+            "NOVIEMBRE": -409356.0,
+            "DICIEMBRE": -1087719.0
+          }
+        },
+        {
+          "codigo": "3-1-40-101",
+          "nombre": "5-2-01-02-002  HONORARIOS SERVICIOS LEGALES",
+          "mensual": {
+            "ENERO": -1528438.0,
+            "FEBRERO": -1016698.0,
+            "MARZO": -4750176.0,
+            "ABRIL": -5273762.0,
+            "MAYO": -1637659.0,
+            "JUNIO": -1794620.0,
+            "JULIO": -560202.0,
+            "AGOSTO": -8486158.0,
+            "SEPTIEMBRE": -5549003.0,
+            "OCTUBRE": -4334836.0,
+            "NOVIEMBRE": 1454623.0,
+            "DICIEMBRE": -2755394.0
+          }
+        },
+        {
+          "codigo": "3-1-40-103",
+          "nombre": "5-2-01-02-003  ASESORIAS Y CONSULTORIAS",
+          "mensual": {
+            "ENERO": -34691572.0,
+            "FEBRERO": -13282037.0,
+            "MARZO": -61151140.0,
+            "ABRIL": -38837065.0,
+            "MAYO": -39802021.0,
+            "JUNIO": -67015692.0,
+            "JULIO": -25914138.0,
+            "AGOSTO": -25473327.0,
+            "SEPTIEMBRE": -29406784.0,
+            "OCTUBRE": -22886343.0,
+            "NOVIEMBRE": -50805944.0,
+            "DICIEMBRE": -31305170.0
+          }
+        },
+        {
+          "codigo": "3-1-40-102",
+          "nombre": "5-2-01-07-001  CONTRIBUCIONES",
+          "mensual": {
+            "ENERO": -2330194.0,
+            "FEBRERO": 0.0,
+            "MARZO": 0.0,
+            "ABRIL": -359692667.0,
+            "MAYO": -3629485.0,
+            "JUNIO": -362154131.0,
+            "JULIO": -3629485.0,
+            "AGOSTO": -40135464.0,
+            "SEPTIEMBRE": -430558319.0,
+            "OCTUBRE": -7980617.0,
+            "NOVIEMBRE": -510503969.0,
+            "DICIEMBRE": -125180771.0
+          }
+        },
+        {
+          "codigo": "3-1-20-100",
+          "nombre": "5-1-03-01-001  PROMOCIONES MARKETING",
+          "mensual": {
+            "ENERO": 0.0,
+            "FEBRERO": 0.0,
+            "MARZO": 0.0,
+            "ABRIL": 0.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": 0.0,
+            "AGOSTO": 0.0,
+            "SEPTIEMBRE": -13000.0,
+            "OCTUBRE": -119986.0,
+            "NOVIEMBRE": -962625.0,
+            "DICIEMBRE": 0.0
+          }
+        },
+        {
+          "codigo": "3-1-40-100",
+          "nombre": "5-1-01-08-001  SEGUROS BIENES FISICOS Y RESPONSABILIDAD CIVIL",
+          "mensual": {
+            "ENERO": -10224922.0,
+            "FEBRERO": -4679624.0,
+            "MARZO": -4679475.0,
+            "ABRIL": -5943433.0,
+            "MAYO": 0.0,
+            "JUNIO": -3576993.0,
+            "JULIO": 0.0,
+            "AGOSTO": 0.0,
+            "SEPTIEMBRE": 1264094.0,
+            "OCTUBRE": 0.0,
+            "NOVIEMBRE": -256430699.0,
+            "DICIEMBRE": -24323408.0
+          }
+        },
+        {
+          "codigo": "3-1-40-104",
+          "nombre": "5-3-01-02-014  DEUDORES INCOBRABLES",
+          "mensual": {
+            "ENERO": 0.0,
+            "FEBRERO": 0.0,
+            "MARZO": 0.0,
+            "ABRIL": 0.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": 0.0,
+            "AGOSTO": 0.0,
+            "SEPTIEMBRE": 0.0,
+            "OCTUBRE": 0.0,
+            "NOVIEMBRE": 0.0,
+            "DICIEMBRE": -19892278.0
+          }
+        },
+        {
+          "codigo": "3-1-10-104",
+          "nombre": "5-3-01-02-003  OTROS EGRESOS",
+          "mensual": {
+            "ENERO": 207212.0,
+            "FEBRERO": 289860.0,
+            "MARZO": 0.0,
+            "ABRIL": 0.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": 98678.0,
+            "AGOSTO": 0.0,
+            "SEPTIEMBRE": -98678.0,
+            "OCTUBRE": 469.0,
+            "NOVIEMBRE": 516.0,
+            "DICIEMBRE": 0.0
+          }
+        },
+        {
+          "codigo": "3-1-10-109",
+          "nombre": "5-3-01-02-006  GANANCIA (PERDIDA) SWAP",
+          "mensual": {
+            "ENERO": -94933143.0,
+            "FEBRERO": -95467797.0,
+            "MARZO": -96743345.0,
+            "ABRIL": -99307655.0,
+            "MAYO": -99962252.0,
+            "JUNIO": -87826424.0,
+            "JULIO": -114304990.0,
+            "AGOSTO": -101323527.0,
+            "SEPTIEMBRE": -103113270.0,
+            "OCTUBRE": -103297417.0,
+            "NOVIEMBRE": -104495330.0,
+            "DICIEMBRE": -104776070.0
+          }
+        },
+        {
+          "codigo": "3-1-40-174",
+          "nombre": "5-3-01-02-020  COSTO MANDATO INVERSIONES NUEVA SANTA FIDELMIRA LIMITADA",
+          "mensual": {
+            "ENERO": 0.0,
+            "FEBRERO": 0.0,
+            "MARZO": 0.0,
+            "ABRIL": -149825310.0,
+            "MAYO": 0.0,
+            "JUNIO": -75197158.0,
+            "JULIO": -37718765.0,
+            "AGOSTO": -37597332.0,
+            "SEPTIEMBRE": -36503476.0,
+            "OCTUBRE": -36336669.0,
+            "NOVIEMBRE": -212834435.0,
+            "DICIEMBRE": -12377918.0
+          }
+        },
+        {
+          "codigo": "3-1-40-109",
+          "nombre": "5-3-01-01-003  MULTAS INTERESES Y REAJUSTES",
+          "mensual": {
+            "ENERO": -581476.0,
+            "FEBRERO": -615951.0,
+            "MARZO": -511872.0,
+            "ABRIL": -1130899.0,
+            "MAYO": -414910.0,
+            "JUNIO": -660992.0,
+            "JULIO": -1561556.0,
+            "AGOSTO": -495384.0,
+            "SEPTIEMBRE": -533498.0,
+            "OCTUBRE": -17858.0,
+            "NOVIEMBRE": -724696.0,
+            "DICIEMBRE": 0.0
+          }
+        },
+        {
+          "codigo": "3-1-40-110",
+          "nombre": "5-3-01-01-005  GASTOS E INTERESES COMERCIALES",
+          "mensual": {
+            "ENERO": 0.0,
+            "FEBRERO": -11147327.0,
+            "MARZO": -3288344.0,
+            "ABRIL": -67594834.0,
+            "MAYO": 0.0,
+            "JUNIO": -52031171.0,
+            "JULIO": -6919562.0,
+            "AGOSTO": -4223762.0,
+            "SEPTIEMBRE": -16606411.0,
+            "OCTUBRE": -12620326.0,
+            "NOVIEMBRE": -26959119.0,
+            "DICIEMBRE": -11008543.0
+          }
+        },
+        {
+          "codigo": "3-1-40-118",
+          "nombre": "5-3-01-02-007  MAYOR / MENOR VALOR DE INVERSIONES",
+          "mensual": {
+            "ENERO": 41412916.0,
+            "FEBRERO": 25148572.0,
+            "MARZO": 20815817.0,
+            "ABRIL": 72607339.0,
+            "MAYO": 154242882.0,
+            "JUNIO": -35434978.0,
+            "JULIO": -80932171.0,
+            "AGOSTO": -17872364.0,
+            "SEPTIEMBRE": 66819811.0,
+            "OCTUBRE": 100715448.0,
+            "NOVIEMBRE": 98094405.0,
+            "DICIEMBRE": 131863912.0
+          }
+        },
+        {
+          "codigo": "3-1-40-179",
+          "nombre": "5-3-01-04-003  IMPUESTOS VARIOS",
+          "mensual": {
+            "ENERO": 0.0,
+            "FEBRERO": -3937500.0,
+            "MARZO": 0.0,
+            "ABRIL": 0.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": -66400.0,
+            "AGOSTO": 0.0,
+            "SEPTIEMBRE": 0.0,
+            "OCTUBRE": 0.0,
+            "NOVIEMBRE": 0.0,
+            "DICIEMBRE": 0.0
+          }
+        }
+      ]
+    },
+    "2026": {
+      "meses": [
+        "ENERO",
+        "FEBRERO",
+        "MARZO",
+        "ABRIL",
+        "MAYO",
+        "JUNIO",
+        "JULIO",
+        "AGOSTO",
+        "SEPTIEMBRE",
+        "OCTUBRE",
+        "NOVIEMBRE",
+        "DICIEMBRE"
+      ],
+      "cuentas": [
+        {
+          "codigo": "4-1-01-003",
+          "nombre": "4-1-01-01-001  ARRIENDO FIJO",
+          "mensual": {
+            "ENERO": 787070060.0,
+            "FEBRERO": 0.0,
+            "MARZO": 0.0,
+            "ABRIL": 0.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": 0.0,
+            "AGOSTO": 0.0,
+            "SEPTIEMBRE": 0.0,
+            "OCTUBRE": 0.0,
+            "NOVIEMBRE": 0.0,
+            "DICIEMBRE": 0.0
+          }
+        },
+        {
+          "codigo": "4-1-01-004",
+          "nombre": "4-1-01-01-002  ARRIENDO VARIABLE",
+          "mensual": {
+            "ENERO": 110194305.0,
+            "FEBRERO": 0.0,
+            "MARZO": 0.0,
+            "ABRIL": 0.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": 0.0,
+            "AGOSTO": 0.0,
+            "SEPTIEMBRE": 0.0,
+            "OCTUBRE": 0.0,
+            "NOVIEMBRE": 0.0,
+            "DICIEMBRE": 0.0
+          }
+        },
+        {
+          "codigo": "4-1-01-009",
+          "nombre": "4-1-01-01-005  CONSUMOS DE AGUAS",
+          "mensual": {
+            "ENERO": 10831092.0,
+            "FEBRERO": 0.0,
+            "MARZO": 0.0,
+            "ABRIL": 0.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": 0.0,
+            "AGOSTO": 0.0,
+            "SEPTIEMBRE": 0.0,
+            "OCTUBRE": 0.0,
+            "NOVIEMBRE": 0.0,
+            "DICIEMBRE": 0.0
+          }
+        },
+        {
+          "codigo": "4-1-01-010",
+          "nombre": "4-1-01-01-006  CONSUMOS DE LUZ",
+          "mensual": {
+            "ENERO": 132389297.0,
+            "FEBRERO": 0.0,
+            "MARZO": 0.0,
+            "ABRIL": 0.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": 0.0,
+            "AGOSTO": 0.0,
+            "SEPTIEMBRE": 0.0,
+            "OCTUBRE": 0.0,
+            "NOVIEMBRE": 0.0,
+            "DICIEMBRE": 0.0
+          }
+        },
+        {
+          "codigo": "4-1-01-090",
+          "nombre": "4-1-01-01-007  CONSUMOS DE GAS",
+          "mensual": {
+            "ENERO": 2069239.0,
+            "FEBRERO": 0.0,
+            "MARZO": 0.0,
+            "ABRIL": 0.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": 0.0,
+            "AGOSTO": 0.0,
+            "SEPTIEMBRE": 0.0,
+            "OCTUBRE": 0.0,
+            "NOVIEMBRE": 0.0,
+            "DICIEMBRE": 0.0
+          }
+        },
+        {
+          "codigo": "4-1-01-007",
+          "nombre": "4-1-01-01-008  GASTOS COMUNES",
+          "mensual": {
+            "ENERO": 119480828.0,
+            "FEBRERO": 0.0,
+            "MARZO": 0.0,
+            "ABRIL": 0.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": 0.0,
+            "AGOSTO": 0.0,
+            "SEPTIEMBRE": 0.0,
+            "OCTUBRE": 0.0,
+            "NOVIEMBRE": 0.0,
+            "DICIEMBRE": 0.0
+          }
+        },
+        {
+          "codigo": "4-1-01-006",
+          "nombre": "4-1-01-01-013  VARIOS",
+          "mensual": {
+            "ENERO": 50716.0,
+            "FEBRERO": 0.0,
+            "MARZO": 0.0,
+            "ABRIL": 0.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": 0.0,
+            "AGOSTO": 0.0,
+            "SEPTIEMBRE": 0.0,
+            "OCTUBRE": 0.0,
+            "NOVIEMBRE": 0.0,
+            "DICIEMBRE": 0.0
+          }
+        },
+        {
+          "codigo": "4-2-01-030",
+          "nombre": "4-2-01-01-005  INTERESES DE PAGARE",
+          "mensual": {
+            "ENERO": 826557.0,
+            "FEBRERO": 0.0,
+            "MARZO": 0.0,
+            "ABRIL": 0.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": 0.0,
+            "AGOSTO": 0.0,
+            "SEPTIEMBRE": 0.0,
+            "OCTUBRE": 0.0,
+            "NOVIEMBRE": 0.0,
+            "DICIEMBRE": 0.0
+          }
+        },
+        {
+          "codigo": "4-2-01-094",
+          "nombre": "4-2-01-01-006  INTERESES DAP US$ BCI",
+          "mensual": {
+            "ENERO": 1059714.0,
+            "FEBRERO": 0.0,
+            "MARZO": 0.0,
+            "ABRIL": 0.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": 0.0,
+            "AGOSTO": 0.0,
+            "SEPTIEMBRE": 0.0,
+            "OCTUBRE": 0.0,
+            "NOVIEMBRE": 0.0,
+            "DICIEMBRE": 0.0
+          }
+        },
+        {
+          "codigo": "3-1-10-102",
+          "nombre": "5-2-01-01-008  SEGURO COMPLEMENTARIO SALUD",
+          "mensual": {
+            "ENERO": -1207779.0,
+            "FEBRERO": 0.0,
+            "MARZO": 0.0,
+            "ABRIL": 0.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": 0.0,
+            "AGOSTO": 0.0,
+            "SEPTIEMBRE": 0.0,
+            "OCTUBRE": 0.0,
+            "NOVIEMBRE": 0.0,
+            "DICIEMBRE": 0.0
+          }
+        },
+        {
+          "codigo": "3-1-10-106",
+          "nombre": "5-1-01-01-005  ARTICULOS DE SEGURIDAD",
+          "mensual": {
+            "ENERO": -177086.0,
+            "FEBRERO": 0.0,
+            "MARZO": 0.0,
+            "ABRIL": 0.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": 0.0,
+            "AGOSTO": 0.0,
+            "SEPTIEMBRE": 0.0,
+            "OCTUBRE": 0.0,
+            "NOVIEMBRE": 0.0,
+            "DICIEMBRE": 0.0
+          }
+        },
+        {
+          "codigo": "3-1-10-101",
+          "nombre": "5-1-01-02-002  INSUMOS BANOS",
+          "mensual": {
+            "ENERO": -1006590.0,
+            "FEBRERO": 0.0,
+            "MARZO": 0.0,
+            "ABRIL": 0.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": 0.0,
+            "AGOSTO": 0.0,
+            "SEPTIEMBRE": 0.0,
+            "OCTUBRE": 0.0,
+            "NOVIEMBRE": 0.0,
+            "DICIEMBRE": 0.0
+          }
+        },
+        {
+          "codigo": "3-1-10-107",
+          "nombre": "5-1-01-07-002  INTERNET",
+          "mensual": {
+            "ENERO": -2004669.0,
+            "FEBRERO": 0.0,
+            "MARZO": 0.0,
+            "ABRIL": 0.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": 0.0,
+            "AGOSTO": 0.0,
+            "SEPTIEMBRE": 0.0,
+            "OCTUBRE": 0.0,
+            "NOVIEMBRE": 0.0,
+            "DICIEMBRE": 0.0
+          }
+        },
+        {
+          "codigo": "3-1-10-009",
+          "nombre": "5-1-01-03-003  CONTROL DE PLAGAS",
+          "mensual": {
+            "ENERO": -1545287.0,
+            "FEBRERO": 0.0,
+            "MARZO": 0.0,
+            "ABRIL": 0.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": 0.0,
+            "AGOSTO": 0.0,
+            "SEPTIEMBRE": 0.0,
+            "OCTUBRE": 0.0,
+            "NOVIEMBRE": 0.0,
+            "DICIEMBRE": 0.0
+          }
+        },
+        {
+          "codigo": "3-1-40-099",
+          "nombre": "5-2-01-02-001  HONORARIOS CONTABLES",
+          "mensual": {
+            "ENERO": -979351.0,
+            "FEBRERO": 0.0,
+            "MARZO": 0.0,
+            "ABRIL": 0.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": 0.0,
+            "AGOSTO": 0.0,
+            "SEPTIEMBRE": 0.0,
+            "OCTUBRE": 0.0,
+            "NOVIEMBRE": 0.0,
+            "DICIEMBRE": 0.0
+          }
+        },
+        {
+          "codigo": "3-1-40-101",
+          "nombre": "5-2-01-02-002  HONORARIOS SERVICIOS LEGALES",
+          "mensual": {
+            "ENERO": -358582.0,
+            "FEBRERO": 0.0,
+            "MARZO": 0.0,
+            "ABRIL": 0.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": 0.0,
+            "AGOSTO": 0.0,
+            "SEPTIEMBRE": 0.0,
+            "OCTUBRE": 0.0,
+            "NOVIEMBRE": 0.0,
+            "DICIEMBRE": 0.0
+          }
+        },
+        {
+          "codigo": "3-1-40-103",
+          "nombre": "5-2-01-02-003  ASESORIAS Y CONSULTORIAS",
+          "mensual": {
+            "ENERO": -25274774.0,
+            "FEBRERO": 0.0,
+            "MARZO": 0.0,
+            "ABRIL": 0.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": 0.0,
+            "AGOSTO": 0.0,
+            "SEPTIEMBRE": 0.0,
+            "OCTUBRE": 0.0,
+            "NOVIEMBRE": 0.0,
+            "DICIEMBRE": 0.0
+          }
+        },
+        {
+          "codigo": "3-1-40-100",
+          "nombre": "5-1-01-08-001  SEGUROS BIENES FISICOS Y RESPONSABILIDAD CIVIL",
+          "mensual": {
+            "ENERO": -2656798.0,
+            "FEBRERO": 0.0,
+            "MARZO": 0.0,
+            "ABRIL": 0.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": 0.0,
+            "AGOSTO": 0.0,
+            "SEPTIEMBRE": 0.0,
+            "OCTUBRE": 0.0,
+            "NOVIEMBRE": 0.0,
+            "DICIEMBRE": 0.0
+          }
+        },
+        {
+          "codigo": "3-1-40-174",
+          "nombre": "5-3-01-02-020  COSTO MANDATO INVERSIONES NUEVA SANTA FIDELMIRA LIMITADA",
+          "mensual": {
+            "ENERO": -12410253.0,
+            "FEBRERO": 0.0,
+            "MARZO": 0.0,
+            "ABRIL": 0.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": 0.0,
+            "AGOSTO": 0.0,
+            "SEPTIEMBRE": 0.0,
+            "OCTUBRE": 0.0,
+            "NOVIEMBRE": 0.0,
+            "DICIEMBRE": 0.0
+          }
+        },
+        {
+          "codigo": "3-1-40-109",
+          "nombre": "5-3-01-01-003  MULTAS INTERESES Y REAJUSTES",
+          "mensual": {
+            "ENERO": -184030.0,
+            "FEBRERO": 0.0,
+            "MARZO": 0.0,
+            "ABRIL": 0.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": 0.0,
+            "AGOSTO": 0.0,
+            "SEPTIEMBRE": 0.0,
+            "OCTUBRE": 0.0,
+            "NOVIEMBRE": 0.0,
+            "DICIEMBRE": 0.0
+          }
+        },
+        {
+          "codigo": "3-1-40-110",
+          "nombre": "5-3-01-01-005  GASTOS E INTERESES COMERCIALES",
+          "mensual": {
+            "ENERO": -11238660.0,
+            "FEBRERO": 0.0,
+            "MARZO": 0.0,
+            "ABRIL": 0.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": 0.0,
+            "AGOSTO": 0.0,
+            "SEPTIEMBRE": 0.0,
+            "OCTUBRE": 0.0,
+            "NOVIEMBRE": 0.0,
+            "DICIEMBRE": 0.0
+          }
+        },
+        {
+          "codigo": "3-1-40-118",
+          "nombre": "5-3-01-02-007  MAYOR / MENOR VALOR DE INVERSIONES",
+          "mensual": {
+            "ENERO": 43000352.0,
+            "FEBRERO": 0.0,
+            "MARZO": 0.0,
+            "ABRIL": 0.0,
+            "MAYO": 0.0,
+            "JUNIO": 0.0,
+            "JULIO": 0.0,
+            "AGOSTO": 0.0,
+            "SEPTIEMBRE": 0.0,
+            "OCTUBRE": 0.0,
+            "NOVIEMBRE": 0.0,
+            "DICIEMBRE": 0.0
+          }
+        }
+      ]
+    }
+  }
+}

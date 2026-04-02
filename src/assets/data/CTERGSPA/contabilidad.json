@@ -1,0 +1,284 @@
+[
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-10-01-004",
+        "Nombre": "CAJA CHICA ALEXANDER CORNEJO                                ",
+        "Saldo_Actual": 958559.0
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-10-01-005",
+        "Nombre": "CAJA CHICA ABEL GALLEGOS GONZALEZ                           ",
+        "Saldo_Actual": 119925.0
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-10-02-001",
+        "Nombre": "BANCO CHILE",
+        "Saldo_Actual": -46302.0
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-10-02-003",
+        "Nombre": "BANCO CREDITO E INVERSIONES 32032056                        ",
+        "Saldo_Actual": 90418.0
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-10-02-004",
+        "Nombre": "BANCO CREDITO E INVERSIONES 30445213                        ",
+        "Saldo_Actual": 9923069.0
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-30-01-001",
+        "Nombre": "CLIENTES",
+        "Saldo_Actual": 1971533.0
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-40-01-004",
+        "Nombre": "ANTICIPO PROVEEDORES",
+        "Saldo_Actual": 1480682.0
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-40-01-015",
+        "Nombre": "CUENTAS POR COBRAR COLABORADORES                            ",
+        "Saldo_Actual": 150000.0
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-40-01-018",
+        "Nombre": "CUENTA PARTICULAR SOCIO JUAN MANUEL                         ",
+        "Saldo_Actual": 18903844.0
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-70-01-001",
+        "Nombre": "IVA CREDITO FISCAL",
+        "Saldo_Actual": 7372770.0
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-70-01-002",
+        "Nombre": "PAGOS PROVISIONALES MENSUALES",
+        "Saldo_Actual": 2251900.0
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-70-01-020",
+        "Nombre": "REMANENTE CR FISCAL",
+        "Saldo_Actual": 1805061.0
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-3-01-02-002",
+        "Nombre": "GARANTIAS PAGADAS",
+        "Saldo_Actual": 600000.0
+    },
+    {
+        "Tipo": "2",
+        "Codigo": "2-1-02-01-001",
+        "Nombre": "PROVEEDORES",
+        "Saldo_Actual": -52815554.0
+    },
+    {
+        "Tipo": "2",
+        "Codigo": "2-1-02-01-002",
+        "Nombre": "HONORARIOS POR PAGAR",
+        "Saldo_Actual": -1050000.0
+    },
+    {
+        "Tipo": "2",
+        "Codigo": "2-1-02-01-008",
+        "Nombre": "REMUNERACIONES POR PAGAR -2",
+        "Saldo_Actual": -16782461.0
+    },
+    {
+        "Tipo": "2",
+        "Codigo": "2-1-04-01-001",
+        "Nombre": "IVA DEBITO FISCAL",
+        "Saldo_Actual": -5284344.0
+    },
+    {
+        "Tipo": "2",
+        "Codigo": "2-1-04-01-002",
+        "Nombre": "IMPUESTO UNICO",
+        "Saldo_Actual": -968725.0
+    },
+    {
+        "Tipo": "2",
+        "Codigo": "2-1-04-01-003",
+        "Nombre": "IMPUESTO 2° CATEGORIA",
+        "Saldo_Actual": -470833.0
+    },
+    {
+        "Tipo": "2",
+        "Codigo": "2-1-04-01-005",
+        "Nombre": "IMPOSICIONES POR PAGAR",
+        "Saldo_Actual": -4141754.0
+    },
+    {
+        "Tipo": "2",
+        "Codigo": "2-1-04-01-006",
+        "Nombre": "FONASA-PREVIRED",
+        "Saldo_Actual": -4373106.0
+    },
+    {
+        "Tipo": "2",
+        "Codigo": "2-1-04-01-008",
+        "Nombre": "PPM POR PAGAR                                               ",
+        "Saldo_Actual": -293044.0
+    },
+    {
+        "Tipo": "2",
+        "Codigo": "2-1-04-02-001",
+        "Nombre": "A.F.P",
+        "Saldo_Actual": -6743897.0
+    },
+    {
+        "Tipo": "2",
+        "Codigo": "2-1-05-01-001",
+        "Nombre": "PROVISION DE VACACIONES                                     ",
+        "Saldo_Actual": -11512076.0
+    },
+    {
+        "Tipo": "2",
+        "Codigo": "2-1-06-01-008",
+        "Nombre": "RETENCIONES PRESTAMO ESTATAL TRABAJADOR                     ",
+        "Saldo_Actual": -48952.0
+    },
+    {
+        "Tipo": "3",
+        "Codigo": "3-1-01-01-001",
+        "Nombre": "CAPITAL SOCIAL",
+        "Saldo_Actual": -2400000.0
+    },
+    {
+        "Tipo": "3",
+        "Codigo": "3-2-01-01-002",
+        "Nombre": "RESULTADOS ACUMULADOS",
+        "Saldo_Actual": 28346100.0
+    },
+    {
+        "Tipo": "4",
+        "Codigo": "4-2-01-02-003",
+        "Nombre": "INGRESOS POR DEVOLUCION PAGO DE HERRAMIENTAS                ",
+        "Saldo_Actual": -323201.0
+    },
+    {
+        "Tipo": "4",
+        "Codigo": "4-2-01-02-004",
+        "Nombre": "INGRESOS POR VENTA SANTA FIDELMIRA                          ",
+        "Saldo_Actual": -1656750.0
+    },
+    {
+        "Tipo": "4",
+        "Codigo": "4-2-01-02-005",
+        "Nombre": "INGRESOS POR VENTA RETIRO                                   ",
+        "Saldo_Actual": -136300000.0
+    },
+    {
+        "Tipo": "5",
+        "Codigo": "5-2-01-01-009",
+        "Nombre": "PREVENCIONISTA                                              ",
+        "Saldo_Actual": 2949852.0
+    },
+    {
+        "Tipo": "5",
+        "Codigo": "5-5-01-01-001",
+        "Nombre": "SUELDO BASE                                                 ",
+        "Saldo_Actual": 41680895.0
+    },
+    {
+        "Tipo": "5",
+        "Codigo": "5-5-01-01-002",
+        "Nombre": "HORAS EXTRAS                                                ",
+        "Saldo_Actual": 3163170.0
+    },
+    {
+        "Tipo": "5",
+        "Codigo": "5-5-01-01-003",
+        "Nombre": "GRATIFICACIÓN                                               ",
+        "Saldo_Actual": 7495260.0
+    },
+    {
+        "Tipo": "5",
+        "Codigo": "5-5-01-01-004",
+        "Nombre": "COLACIÓN                                                    ",
+        "Saldo_Actual": 665000.0
+    },
+    {
+        "Tipo": "5",
+        "Codigo": "5-5-01-01-005",
+        "Nombre": "MOVILIZACIÓN                                                ",
+        "Saldo_Actual": 1805000.0
+    },
+    {
+        "Tipo": "5",
+        "Codigo": "5-5-01-01-006",
+        "Nombre": "APORTE PATRONAL                                             ",
+        "Saldo_Actual": 3562241.0
+    },
+    {
+        "Tipo": "5",
+        "Codigo": "5-5-01-01-007",
+        "Nombre": "GASTOS FINIQUITO                                            ",
+        "Saldo_Actual": 98290.0
+    },
+    {
+        "Tipo": "5",
+        "Codigo": "5-5-01-01-009",
+        "Nombre": "GASTOS VACACIONES                                           ",
+        "Saldo_Actual": -634718.0
+    },
+    {
+        "Tipo": "5",
+        "Codigo": "5-5-01-01-011",
+        "Nombre": "BONO DE PRODUCCION                                          ",
+        "Saldo_Actual": 5967987.0
+    },
+    {
+        "Tipo": "5",
+        "Codigo": "5-5-02-03-001",
+        "Nombre": "SERVICIOS INFORMATICOS RRHH                                 ",
+        "Saldo_Actual": 322000.0
+    },
+    {
+        "Tipo": "5",
+        "Codigo": "5-5-03-01-001",
+        "Nombre": "GASTOS DE REPRESENTACION                                    ",
+        "Saldo_Actual": 2469378.0
+    },
+    {
+        "Tipo": "5",
+        "Codigo": "5-6-01-01-001",
+        "Nombre": "GASTOS BANCARIOS                                            ",
+        "Saldo_Actual": 155670.0
+    },
+    {
+        "Tipo": "5",
+        "Codigo": "5-6-01-01-003",
+        "Nombre": "CORRECCION MONETARIA ACTIVOS                                ",
+        "Saldo_Actual": 3528.0
+    },
+    {
+        "Tipo": "5",
+        "Codigo": "5-8-01-01-001",
+        "Nombre": "TELEFONO                                                    ",
+        "Saldo_Actual": 55437.0
+    },
+    {
+        "Tipo": "5",
+        "Codigo": "5-9-01-01-001",
+        "Nombre": "GASTOS CONSTRUCCION RETIRO                                  ",
+        "Saldo_Actual": 109608479.0
+    },
+    {
+        "Tipo": "5",
+        "Codigo": "5-9-01-06-002",
+        "Nombre": "GASTOS DE IMPLEMENTOS DE SEGURIDAD Y PROTECCION             ",
+        "Saldo_Actual": 58290.0
+    }
+]

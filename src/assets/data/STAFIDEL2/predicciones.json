@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "empresa": "STAFIDEL2",
+    "generado": "2026-03-23T16:34:27",
+    "modelo": "ninguno",
+    "error": "serie insuficiente (<6 meses)"
+  },
+  "ventas": {
+    "historico": [],
+    "pronostico": []
+  },
+  "flujo_caja": {
+    "nota": "serie insuficiente (<6 meses)",
+    "historico": [],
+    "pronostico": []
+  }
+}

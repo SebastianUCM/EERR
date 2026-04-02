@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "empresa": "CTERGSPA",
+    "generado": "2026-03-23T16:35:59",
+    "modelo": "tendencia_lineal+intervalo_empirico",
+    "horizonte_meses": 6,
+    "regresores": [
+      "dolar_obs",
+      "ipc_var_mensual"
+    ],
+    "notas": [
+      "ARIMA no aplico: 'numpy.ndarray' object has no attribute 'iloc'",
+      "Regresores alineados por mes desde mindicador.cl; faltantes rellenados con macro.json.",
+      "Flujo de caja (MVP): proxy igual a ventas hasta definir serie de tesoreria."
+    ]
+  },
+  "ventas": {
+    "historico": [
+      {
+        "periodo": "2025-07",
+        "y": 21653748.0
+      },
+      {
+        "periodo": "2025-08",
+        "y": 32088088.0
+      },
+      {
+        "periodo": "2025-09",
+        "y": 57930718.0
+      },
+      {
+        "periodo": "2025-10",
+        "y": 88762149.0
+      },
+      {
+        "periodo": "2025-11",
+        "y": 30543231.0
+      },
+      {
+        "periodo": "2025-12",
+        "y": 63975204.0
+      },
+      {
+        "periodo": "2026-01",
+        "y": 88655000.0
+      },
+      {
+        "periodo": "2026-02",
+        "y": 75513533.0
+      },
+      {
+        "periodo": "2026-03",
+        "y": 89964774.0
+      }
+    ],
+    "pronostico": [
+      {
+        "periodo": "2026-04",
+        "yhat": 97691443.16666666,
+        "yhat_lower": 63833192.20808781,
+        "yhat_upper": 131549694.12524551
+      },
+      {
+        "periodo": "2026-05",
+        "yhat": 105027810.79999998,
+        "yhat_lower": 71169559.84142113,
+        "yhat_upper": 138886061.75857884
+      },
+      {
+        "periodo": "2026-06",
+        "yhat": 112364178.43333332,
+        "yhat_lower": 78505927.47475448,
+        "yhat_upper": 146222429.39191216
+      },
+      {
+        "periodo": "2026-07",
+        "yhat": 119700546.06666665,
+        "yhat_lower": 85842295.10808781,
+        "yhat_upper": 153558797.0252455
+      },
+      {
+        "periodo": "2026-08",
+        "yhat": 127036913.69999997,
+        "yhat_lower": 93178662.74142113,
+        "yhat_upper": 160895164.6585788
+      },
+      {
+        "periodo": "2026-09",
+        "yhat": 134373281.3333333,
+        "yhat_lower": 100515030.37475446,
+        "yhat_upper": 168231532.29191217
+      }
+    ]
+  },
+  "flujo_caja": {
+    "nota": "MVP: pronostico proxy copiado de ventas (definir serie real de caja).",
+    "historico": [
+      {
+        "periodo": "2025-07",
+        "y": 21653748.0
+      },
+      {
+        "periodo": "2025-08",
+        "y": 32088088.0
+      },
+      {
+        "periodo": "2025-09",
+        "y": 57930718.0
+      },
+      {
+        "periodo": "2025-10",
+        "y": 88762149.0
+      },
+      {
+        "periodo": "2025-11",
+        "y": 30543231.0
+      },
+      {
+        "periodo": "2025-12",
+        "y": 63975204.0
+      },
+      {
+        "periodo": "2026-01",
+        "y": 88655000.0
+      },
+      {
+        "periodo": "2026-02",
+        "y": 75513533.0
+      },
+      {
+        "periodo": "2026-03",
+        "y": 89964774.0
+      }
+    ],
+    "pronostico": [
+      {
+        "periodo": "2026-04",
+        "yhat": 97691443.16666666,
+        "yhat_lower": 63833192.20808781,
+        "yhat_upper": 131549694.12524551
+      },
+      {
+        "periodo": "2026-05",
+        "yhat": 105027810.79999998,
+        "yhat_lower": 71169559.84142113,
+        "yhat_upper": 138886061.75857884
+      },
+      {
+        "periodo": "2026-06",
+        "yhat": 112364178.43333332,
+        "yhat_lower": 78505927.47475448,
+        "yhat_upper": 146222429.39191216
+      },
+      {
+        "periodo": "2026-07",
+        "yhat": 119700546.06666665,
+        "yhat_lower": 85842295.10808781,
+        "yhat_upper": 153558797.0252455
+      },
+      {
+        "periodo": "2026-08",
+        "yhat": 127036913.69999997,
+        "yhat_lower": 93178662.74142113,
+        "yhat_upper": 160895164.6585788
+      },
+      {
+        "periodo": "2026-09",
+        "yhat": 134373281.3333333,
+        "yhat_lower": 100515030.37475446,
+        "yhat_upper": 168231532.29191217
+      }
+    ]
+  }
+}

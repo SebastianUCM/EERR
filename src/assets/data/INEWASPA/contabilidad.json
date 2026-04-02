@@ -1,0 +1,188 @@
+[
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-10-02-002",
+        "Nombre": "BANCO SANTANDER 25999264",
+        "Saldo_Actual": 489182570.0
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-40-01-004",
+        "Nombre": "ANTICIPO PROVEEDORES",
+        "Saldo_Actual": 152209314.0
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-40-02-002",
+        "Nombre": "BOLETA GARANTIA PROMESAS COMPRA/VENTA",
+        "Saldo_Actual": 302170642.0
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-70-01-001",
+        "Nombre": "IVA CREDITO FISCAL",
+        "Saldo_Actual": 19593918.0
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-1-70-01-020",
+        "Nombre": "REMANENTE CR FISCAL",
+        "Saldo_Actual": 153762794.0
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-2-01-04-001",
+        "Nombre": "PREDIO- EL RETIRO PARRAL ROL-00039-00010                    ",
+        "Saldo_Actual": 376272364.0
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-2-01-04-002",
+        "Nombre": "PREDIO- SAN CARLOS ROL 52-2                                 ",
+        "Saldo_Actual": 1831424064.0
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-2-01-05-001",
+        "Nombre": "CONSTRUCCION RETIRO                                         ",
+        "Saldo_Actual": 627585999.0
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-2-01-05-002",
+        "Nombre": "CONSTRUCCION SAN CARLOS                                     ",
+        "Saldo_Actual": 338681635.0
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-2-01-05-003",
+        "Nombre": "CONSTRUCCION COLBUN                                         ",
+        "Saldo_Actual": 72364718.0
+    },
+    {
+        "Tipo": "1",
+        "Codigo": "1-2-01-05-004",
+        "Nombre": "CONSTRUCCION DOÑIHUE                                        ",
+        "Saldo_Actual": 10161228.0
+    },
+    {
+        "Tipo": "2",
+        "Codigo": "2-1-02-01-001",
+        "Nombre": "PROVEEDORES",
+        "Saldo_Actual": -161132322.0
+    },
+    {
+        "Tipo": "2",
+        "Codigo": "2-1-02-01-002",
+        "Nombre": "HONORARIOS POR PAGAR",
+        "Saldo_Actual": -750000.0
+    },
+    {
+        "Tipo": "2",
+        "Codigo": "2-1-02-01-005",
+        "Nombre": "MUTUOS POR PAGAR A ERIC W.                                  ",
+        "Saldo_Actual": -1926892516.0
+    },
+    {
+        "Tipo": "2",
+        "Codigo": "2-1-02-01-006",
+        "Nombre": "CHEQUES GIRADOS POR PAGAR",
+        "Saldo_Actual": 697200.0
+    },
+    {
+        "Tipo": "2",
+        "Codigo": "2-1-02-01-007",
+        "Nombre": "CUENTAS POR PAGAR INVERSIONES SANTA FIDELMIRA               ",
+        "Saldo_Actual": -302289942.0
+    },
+    {
+        "Tipo": "2",
+        "Codigo": "2-1-02-01-010",
+        "Nombre": "INTERESES MUTUOS POR PAGAR ERIC W.                          ",
+        "Saldo_Actual": -4774876.0
+    },
+    {
+        "Tipo": "2",
+        "Codigo": "2-1-02-01-011",
+        "Nombre": "MUTUOS POR PAGAR INVERSIONES SANTA FIDELMIRA LIMITADA       ",
+        "Saldo_Actual": -2017005736.0
+    },
+    {
+        "Tipo": "2",
+        "Codigo": "2-1-02-01-012",
+        "Nombre": "INTERESES MUTUOS POR PAGAR INVERSIONES SANTA FIDELMIRA      ",
+        "Saldo_Actual": -2645211.0
+    },
+    {
+        "Tipo": "2",
+        "Codigo": "2-1-02-01-013",
+        "Nombre": ".CUENTAS POR PAGAR ERIC WAGHORN ARCE                        ",
+        "Saldo_Actual": -213690.0
+    },
+    {
+        "Tipo": "2",
+        "Codigo": "2-1-04-01-003",
+        "Nombre": "IMPUESTO 2° CATEGORIA",
+        "Saldo_Actual": -135673.0
+    },
+    {
+        "Tipo": "3",
+        "Codigo": "3-1-01-01-001",
+        "Nombre": "CAPITAL SOCIAL",
+        "Saldo_Actual": -2000000.0
+    },
+    {
+        "Tipo": "3",
+        "Codigo": "3-2-01-01-002",
+        "Nombre": "RESULTADOS ACUMULADOS",
+        "Saldo_Actual": 35963738.0
+    },
+    {
+        "Tipo": "5",
+        "Codigo": "5-1-01-06-001",
+        "Nombre": "CONSUMO AGUA COMUN",
+        "Saldo_Actual": 383453.0
+    },
+    {
+        "Tipo": "5",
+        "Codigo": "5-1-01-06-002",
+        "Nombre": "CONSUMO ENERGIA COMUN",
+        "Saldo_Actual": 108300.0
+    },
+    {
+        "Tipo": "5",
+        "Codigo": "5-3-01-03-006",
+        "Nombre": "CORRECCION EN UF",
+        "Saldo_Actual": 3061192.0
+    },
+    {
+        "Tipo": "5",
+        "Codigo": "5-5-02-01-002",
+        "Nombre": "GASTOS GENERALES                                            ",
+        "Saldo_Actual": 1899400.0
+    },
+    {
+        "Tipo": "5",
+        "Codigo": "5-5-02-01-003",
+        "Nombre": "PATENTE                                                     ",
+        "Saldo_Actual": 66189.0
+    },
+    {
+        "Tipo": "5",
+        "Codigo": "5-6-01-01-001",
+        "Nombre": "GASTOS BANCARIOS                                            ",
+        "Saldo_Actual": 91580.0
+    },
+    {
+        "Tipo": "5",
+        "Codigo": "5-6-01-01-003",
+        "Nombre": "CORRECCION MONETARIA ACTIVOS                                ",
+        "Saldo_Actual": -214134.0
+    },
+    {
+        "Tipo": "5",
+        "Codigo": "5-6-01-01-005",
+        "Nombre": "GASTOS E INTERESES COMERCIALES                              ",
+        "Saldo_Actual": 3304133.0
+    }
+]

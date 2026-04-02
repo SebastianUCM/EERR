@@ -1,0 +1,22 @@
+[
+    {
+        "cliente": "78066416",
+        "pendiente": 474226281.0,
+        "documentos": 26
+    },
+    {
+        "cliente": "79991280",
+        "pendiente": 43383654.0,
+        "documentos": 15
+    },
+    {
+        "cliente": "77053758",
+        "pendiente": 34868010.0,
+        "documentos": 11
+    },
+    {
+        "cliente": "76356791",
+        "pendiente": 18128923.0,
+        "documentos": 4
+    }
+]

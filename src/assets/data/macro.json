@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "actualizado_utc": "2026-03-23T19:33:50.746468+00:00",
+    "fuente": "https://mindicador.cl",
+    "solo_lectura_http": true
+  },
+  "indicadores": {
+    "uf": {
+      "nombre": "Unidad de fomento (UF)",
+      "unidad_medida": "Pesos",
+      "valor": 39750.94,
+      "fecha": "2026-02-21T03:00:00.000Z"
+    },
+    "dolar": {
+      "nombre": "Dólar observado",
+      "unidad_medida": "Pesos",
+      "valor": 859.66,
+      "fecha": "2026-02-09T03:00:00.000Z"
+    },
+    "ipc": {
+      "nombre": "Indice de Precios al Consumidor (IPC)",
+      "unidad_medida": "Porcentaje",
+      "valor": -0.2,
+      "fecha": "2023-06-01T04:00:00.000Z",
+      "variacion_mensual_pct": -0.2
+    }
+  }
+}
