@@ -41,6 +41,22 @@
         EERR — consolidado
       </button>
 
+      <button
+        type="button"
+        :class="tab === 'balance_trib' ? tabActive : tabIdle"
+        @click="tab = 'balance_trib'"
+      >
+        Balance Tributario
+      </button>
+      
+      <button
+        type="button"
+        :class="tab === 'balance_ifrs' ? tabActive : tabIdle"
+        @click="tab = 'balance_ifrs'"
+      >
+        Balance IFRS
+      </button>
+
       <div
         class="w-px h-6 bg-gray-200 hidden sm:block mx-1"
         aria-hidden="true"
@@ -61,12 +77,25 @@
 
     <DashboardFidelmira v-if="tab === 'dash'" :empresa="empresa" />
     <VistaEeffAcercamiento v-else-if="tab === 'eeff'" :empresa="empresa" />
-    <VistaEeffExcelProyeccion
-      v-else-if="tab === 'eeff_excel'"
-      :empresa="empresa"
-    />
+    <VistaEeffExcelProyeccion v-else-if="tab === 'eeff_excel'" :empresa="empresa" />
     <VistaCmfProyeccion v-else-if="tab === 'cmf'" :empresa="empresa" />
     <VistaEerr v-else-if="tab === 'eeff_eerr'" :empresa="empresa" />
+    <VistaBalance v-else-if="tab === 'balance_trib'" :empresa="empresa" norma="Trib" />
+    <VistaBalance v-else-if="tab === 'balance_ifrs'" :empresa="empresa" norma="IFRS" />
+
+    <button 
+      v-if="!isChatOpen" 
+      @click="isChatOpen = true"
+      class="fixed bottom-6 right-6 w-14 h-14 bg-indigo-600 text-white rounded-full shadow-2xl hover:bg-indigo-700 transition-transform hover:scale-105 flex items-center justify-center z-50 focus:outline-none"
+      title="Abrir Asistente IA"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-7 h-7">
+        <path fill-rule="evenodd" d="M4.804 21.644A6.707 6.707 0 006 21.75a6.721 6.721 0 003.583-1.029c.774.182 1.584.279 2.417.279 5.322 0 9.75-3.97 9.75-9 0-5.03-4.428-9-9.75-9s-9.75 3.97-9.75 9c0 2.409 1.025 4.587 2.674 6.192.232.226.277.428.254.543a3.73 3.73 0 01-.814 1.686.75.75 0 00.44 1.223zM8.25 10.875a1.125 1.125 0 100 2.25 1.125 1.125 0 000-2.25zM10.875 12a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0zm4.875-1.125a1.125 1.125 0 100 2.25 1.125 1.125 0 000-2.25z" clip-rule="evenodd" />
+      </svg>
+    </button>
+
+    <ChatFinanciero v-if="isChatOpen" @close="isChatOpen = false" :empresa="empresa" />
+
   </div>
 </template>
 
@@ -77,11 +106,14 @@ import VistaEeffAcercamiento from "./components/VistaEeffAcercamiento.vue";
 import VistaEeffExcelProyeccion from "./components/VistaEeffExcelProyeccion.vue";
 import VistaCmfProyeccion from "./components/VistaCmfProyeccion.vue";
 import VistaEerr from "./components/DashboardEERR.vue";
+
+import ChatFinanciero from "./components/ChatFinanciero.vue";
+import VistaBalance from "./components/BalanceTributario.vue"; 
 import { EMPRESAS } from "./utils/empresas.js";
 
 const tab = ref("dash");
+const isChatOpen = ref(false); // NUEVO ESTADO PARA EL CHAT
 
-/** Carpetas con al menos contabilidad.json (Vite incluye el asset al hacer glob). */
 const contabilidadGlob = import.meta.glob("./assets/data/*/contabilidad.json", {
   eager: true,
 });
