@@ -223,39 +223,17 @@ const datosAnioMapeados = computed(() => {
   if (!configEmpresa) return []; 
 
   const mapCuentas = configEmpresa.cuentas || {};
-  const reglasSubitem = configEmpresa.reglas_subitem || [];
-  const fallbacks = configEmpresa.fallback || {};
-  const prefijos = fallbacks.categoria_por_prefijo || [];
 
   const rows = [];
   for (const d of datosAnio.value) {
     const cod = String(d.CodigoCuenta ?? "").trim();
-    const nombreCta = String(d.NombreCuenta || d.Cuenta || "").toUpperCase(); 
     if (!cod) continue;
 
-    let categoria = null;
-    let subitem = null;
+    const cfg = mapCuentas[cod];
+    if (!cfg) continue;
 
-    if (mapCuentas[cod]) {
-      categoria = mapCuentas[cod].categoria;
-      subitem = mapCuentas[cod].subitem;
-    } else {
-      for (const pref of prefijos) {
-        if (cod.startsWith(pref.prefijo)) {
-          categoria = pref.categoria;
-          break;
-        }
-      }
-      if (!categoria) categoria = fallbacks.categoria_default || "otros_resultados";
-
-      for (const regla of reglasSubitem) {
-        if (regla.match_nombre.some(keyword => nombreCta.includes(keyword))) {
-          subitem = regla.subitem;
-          break;
-        }
-      }
-      if (!subitem) subitem = fallbacks.subitem_default || "sin_subitem";
-    }
+    const categoria = cfg.categoria;
+    const subitem = cfg.subitem;
 
     const mes = normMes(d.Mes);
     rows.push({
