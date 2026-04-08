@@ -11,21 +11,21 @@
       >
         Dashboard ejecutivo
       </button>
-      <button
+      <button disabled="true"
         type="button"
         :class="tab === 'eeff' ? tabActive : tabIdle"
         @click="tab = 'eeff'"
       >
         EEFF — acercamiento
       </button>
-      <button
+      <button disabled="true"
         type="button"
         :class="tab === 'eeff_excel' ? tabActive : tabIdle"
         @click="tab = 'eeff_excel'"
       >
         EEFF Excel + proyección
       </button>
-      <button
+      <button disabled="true"
         type="button"
         :class="tab === 'cmf' ? tabActive : tabIdle"
         @click="tab = 'cmf'"
@@ -38,7 +38,7 @@
         :class="tab === 'eeff_eerr' ? tabActive : tabIdle"
         @click="tab = 'eeff_eerr'"
       >
-        EERR — consolidado
+        Estado de Resultados EERR
       </button>
 
       <button
