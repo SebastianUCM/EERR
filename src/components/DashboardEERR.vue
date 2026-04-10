@@ -170,7 +170,7 @@ const BLOQUES_FINANCIEROS = [
   { key: "ingreso_explotacion", label: "Ingresos de Explotación", colorHeader: "bg-emerald-200 border-emerald-400" },
   { key: "ingreso_financiero", label: "Ingresos Financieros", colorHeader: "bg-cyan-200 border-cyan-400" },
   { key: "gasto_adm_ventas", label: "Gastos de Administración y Ventas", colorHeader: "bg-amber-200 border-amber-400" },
-  { key: "otros_resultados", label: "Otros Resultados", colorHeader: "bg-violet-200 border-violet-400" },
+  { key: "otros_resultados", label: "Otros Gastos Financieros", colorHeader: "bg-violet-200 border-violet-400" },
 ];
 
 const ordenSubitems = computed(() => {
