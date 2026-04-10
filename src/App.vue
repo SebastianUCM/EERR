@@ -57,6 +57,14 @@
         Balance IFRS
       </button>
 
+      <button
+        type="button"
+        :class="tab === 'inmobiliario' ? tabActive : tabIdle"
+        @click="tab = 'inmobiliario'"
+      >
+        Dashboard Inmobiliario
+      </button>
+
       <div
         class="w-px h-6 bg-gray-200 hidden sm:block mx-1"
         aria-hidden="true"
@@ -82,6 +90,7 @@
     <VistaEerr v-else-if="tab === 'eeff_eerr'" :empresa="empresa" />
     <VistaBalance v-else-if="tab === 'balance_trib'" :empresa="empresa" norma="Trib" />
     <VistaBalance v-else-if="tab === 'balance_ifrs'" :empresa="empresa" norma="IFRS" />
+    <VistaInmobiliaria v-else-if="tab === 'inmobiliario'" :empresa="empresa" />
 
     <button 
       v-if="!isChatOpen" 
@@ -106,13 +115,15 @@ import VistaEeffAcercamiento from "./components/VistaEeffAcercamiento.vue";
 import VistaEeffExcelProyeccion from "./components/VistaEeffExcelProyeccion.vue";
 import VistaCmfProyeccion from "./components/VistaCmfProyeccion.vue";
 import VistaEerr from "./components/DashboardEERR.vue";
-
 import ChatFinanciero from "./components/ChatFinanciero.vue";
 import VistaBalance from "./components/BalanceTributario.vue"; 
+// NUEVA IMPORTACIÓN (Asegúrate de que el nombre del archivo coincida con el que creamos)
+import VistaInmobiliaria from "./components/DashboardInmobiliario.vue"; 
+
 import { EMPRESAS } from "./utils/empresas.js";
 
 const tab = ref("dash");
-const isChatOpen = ref(false); // NUEVO ESTADO PARA EL CHAT
+const isChatOpen = ref(false); 
 
 const contabilidadGlob = import.meta.glob("./assets/data/*/contabilidad.json", {
   eager: true,
